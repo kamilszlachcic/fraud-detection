@@ -1,0 +1,52 @@
+# ------------------------
+# IDE
+# ------------------------
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.env
+.venv/
+.idea/
+.vscode/
+
+# ------------------------
+# Jupyter Notebooks
+# ------------------------
+**/.ipynb_checkpoints/
+
+# ------------------------
+# Models
+# ------------------------
+models/*.pth
+models/*.keras
+models/*.joblib
+models/*.h5
+models/*scaler*
+models/*.txt
+models/*.pkl
+
+
+# ------------------------
+# Pickle
+# ------------------------
+*.pkl
+data/**/*.pkl
+
+# ------------------------
+# Data
+# ------------------------
+data/raw/
+data/processed/
+data/patches/
+*.csv
+*.xlsx
+
+# ------------------------
+# Other
+# ------------------------
+.DS_Store
+Kaggle Submission/
