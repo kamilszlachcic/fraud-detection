@@ -10,7 +10,7 @@ from sklearn.preprocessing import RobustScaler
 
 # Import processed data
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-with open(PROJECT_ROOT / "data/processed/XBG_FE_processed_data.pkl", "rb") as f:
+with open(PROJECT_ROOT / "data/processed/train_processed_split.pkl", "rb") as f:
     data = joblib.load(f)
 X_train, X_test, y_train, y_test = data["X_train"], data["X_test"], data["y_train"], data["y_test"]
 

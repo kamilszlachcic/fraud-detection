@@ -16,7 +16,7 @@ from torch.utils.data import DataLoader, TensorDataset
 
 # Paths
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATA_PATH = PROJECT_ROOT / "data/processed/XBG_FE_processed_data.pkl"
+DATA_PATH = PROJECT_ROOT / "data/processed/train_processed_split.pkl"
 
 # Load Processed Data
 with open(DATA_PATH, "rb") as f:

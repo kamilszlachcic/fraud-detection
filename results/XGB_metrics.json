@@ -4,5 +4,6 @@
     "recall": 0.7012,
     "f1_score": 0.8115,
     "pr_auc": 0.8785,
-    "threshold": 0.15
+    "threshold": 0.15,
+    "timestamp": "2024-04-14 20:33:58"
 }

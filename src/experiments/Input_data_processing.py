@@ -1,25 +1,18 @@
 from pathlib import Path
-import pickle
 import joblib
-
 import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-
-import xgboost as xgb
-import matplotlib.pyplot as plt
 
 # Paths
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-df1_path = PROJECT_ROOT / "data/raw/train_transaction.csv"
-df2_path = PROJECT_ROOT / "data/raw/train_identity.csv"
+df1_path = PROJECT_ROOT / "data/raw/test_transaction.csv"
+df2_path = PROJECT_ROOT / "data/raw/test_identity.csv"
 
 df1 = pd.read_csv(df1_path)
 df2 = pd.read_csv(df2_path)
 
 dataset = df1.merge(df2, how='left')
+dataset.columns = dataset.columns.str.replace("-", "_")
 print(dataset.info())
 dataset.set_index("TransactionID", inplace=True)
 
@@ -63,58 +56,14 @@ print(f"Original Dataset Shape: {dataset.shape}")
 print(f"Filtered Dataset Shape: {dataset_filtered.shape}")
 print(f"Dropped {len(not_important_v_columns)} Unimportant V-Columns")
 
-print(dataset_filtered['isFraud'].sum())
-
-
-def analyze_dataframe(df):
-    """
-    Analyzes a dataframe by showing:
-    - Data types
-    - Unique values count
-    - Sample unique values
-    - Missing values percentage
-    - Basic statistics for numerical columns
-
-    Parameters:
-    - df: The dataset to analyze (X_train, X_test, sub_dataset)
-    
-    Returns:
-    - Dataframe with analysis
-    """
-
-    # Create a DataFrame to store metadata
-    df_info = pd.DataFrame({
-        "Data Type": df.dtypes,
-        "Unique Values": df.nunique(),
-        "Missing Values (%)": df.isnull().mean() * 100,
-        "Sample Values": df.apply(lambda x: x.dropna().unique()[:5])  # Show up to 5 unique values as sample
-    })
-
-    # Descriptive Stats for Numerical Columns
-    numerical_stats = df.describe().T
-
-    # Merge results
-    df_analysis = df_info.join(numerical_stats, how="left")
-
-    return df_analysis
-
-
-for col in dataset_filtered.columns:
-    if dataset_filtered[col].dtype == 'float64': dataset_filtered[col] = dataset_filtered[col].astype('float32')
-    if dataset_filtered[col].dtype == 'int64': dataset_filtered[col] = dataset_filtered[col].astype('int32')
-
-df_analysis = analyze_dataframe(dataset_filtered)
-print(df_analysis)
-
-
 def apply_magic_features(df, group_cols=["card1", "card2", "addr1"]):
     """
     Applies advanced feature engineering based on Chris Deotte's 'Magic Features' approach.
-    
+
     Parameters:
     - df: The dataset (train, test, or submission)
     - group_cols: Columns used for grouping and extracting time-based patterns
-    
+
     Returns:
     - df with new "magic" features
     """
@@ -236,159 +185,38 @@ def preprocess_and_engineer_features(df, test_size=0.2, random_state=42):
     # 6️⃣ **Frequency Encoding**
     df["card1_counts"] = df["card1"].map(df["card1"].value_counts())
 
-    # 7️⃣ **Train-Test Split**
-    X = df.drop(columns=["isFraud", "UID"], errors="ignore")
-    y = df["isFraud"].astype(int)
-
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state,
-                                                        stratify=y)
+    # 7️⃣ **Drop unused columns**
+    df.drop(columns=["isFraud", "UID"], errors="ignore")
 
     # 8️⃣ **Feature Scaling**
-    def detect_numeric_columns(df, threshold=10):
-        """Detect numerical columns that should be scaled, ignoring binary/categorical-like features."""
-        numeric_cols = df.select_dtypes(include=[np.number]).columns
-        filtered_cols = []
-        for col in numeric_cols:
-            unique_values = df[col].dropna().to_numpy()  # ✅ Convert to NumPy array
-            if len(np.unique(unique_values)) > threshold and not np.all(np.isin(unique_values, [0, 1])):  # ✅ Fix check
-                filtered_cols.append(col)
-        return filtered_cols
+    columns_to_scale = joblib.load(PROJECT_ROOT / "data/processed/scaled_columns.pkl")
+    scaler = joblib.load(PROJECT_ROOT / "data/processed/standard_scaler.pkl")
+    df[columns_to_scale] = scaler.transform(df[columns_to_scale])
 
-    columns_to_scale = detect_numeric_columns(X_train)
-
-    scaler = StandardScaler()
-    X_train[columns_to_scale] = scaler.fit_transform(X_train[columns_to_scale])
-    X_test[columns_to_scale] = scaler.transform(X_test[columns_to_scale])
-
-    print(f"✅ Preprocessing Complete! Train Shape: {X_train.shape} | Test Shape: {X_test.shape}")
-    return X_train, X_test, y_train, y_test
+    print(f"✅ Preprocessing Complete! Dataset Shape: {df.shape}")
+    return df
 
 
 dataset_handled = apply_magic_features(dataset_filtered)
+dataset_handled = preprocess_and_engineer_features(dataset_handled)
 
-X_train, X_test, y_train, y_test = preprocess_and_engineer_features(dataset_handled)
-
-print(f"X_train shape: {X_train.shape}, X_test shape: {X_test.shape}")
-print(f"y_train shape: {y_train.shape}, y_test shape: {y_test.shape}")
-
-print("\n✅ First 5 rows of X_train:")
-print(X_train.head())
-
-print("\n✅ First 5 rows of y_train:")
-print(y_train.head())
-X_train.describe().T[['mean', 'std']].head(10)  # Check first 10 scaled columns
-
-print("\n✅ Checking encoded categorical columns:")
-categorical_columns = ["ProductCD", "card4", "card6", "P_emaildomain", "R_emaildomain"]
-print(X_train[categorical_columns].head())
-
-# Check unique values
-print("\nUnique values after encoding:")
-for col in categorical_columns:
-    print(f"{col}: {X_train[col].unique()[:5]}")  # First 5 unique values
-common_values = set(X_train.index).intersection(set(X_test.index))
-print(f"\n🔍 Common indices between X_train and X_test: {len(common_values)} (should be 0)")
-
-print("\n✅ Checking fraud ratio:")
-print(f"Fraud in full dataset: {y_train.mean():.4f}")
-print(f"Fraud in train set: {y_train.mean():.4f}")
-print(f"Fraud in test set: {y_test.mean():.4f}")
-
-print("\n✅ Data Preprocessing Check Completed!")
-
-xgb_model = xgb.XGBClassifier(
-    objective="binary:logistic",
-    eval_metric="auc",
-    n_estimators=500,
-    max_depth=4,
-    learning_rate=0.1,
-    subsample=1,
-    colsample_bytree=1,
-    scale_pos_weight=1,
-    nthread=-1,
-    random_state=42
-)
-
-# Fit the model
-xgb_model.fit(X_train, y_train)
-
-# Extract feature importance
-feature_importance = pd.DataFrame({
-    "Feature": X_train.columns,
-    "Importance": xgb_model.feature_importances_
-}).sort_values(by="Importance", ascending=False)
-
-# Display top features
-print("\n🔍 Top 50 Most Important Features:")
-print(feature_importance.head(50))
-
-# Plot feature importance
-plt.figure(figsize=(20, 8))
-plt.barh(feature_importance["Feature"].head(50), feature_importance["Importance"].head(50))
-plt.gca().invert_yaxis()
-plt.xlabel("Importance")
-plt.ylabel("Feature")
-plt.title("Top 50 Feature Importance - XGBoost")
-plt.show()
-
-cumulative_importance_threshold = 1
-
-# Compute cumulative importance
-feature_importance["Cumulative_Importance"] = feature_importance["Importance"].cumsum()
-
-if cumulative_importance_threshold == 0.99:
-    selected_features = feature_importance["Feature"].tolist()
-else:
-    selected_features = \
-        feature_importance[feature_importance["Cumulative_Importance"] <= cumulative_importance_threshold][
-            "Feature"].tolist()
-
-print(
-    f"✅ Selected {len(selected_features)} features (Explaining {cumulative_importance_threshold * 100}% of total importance)")
+feature_names = joblib.load(PROJECT_ROOT / "data/processed/feature_names.pkl")
+dataset_handled = dataset_handled.reindex(columns=feature_names, fill_value=0)
 
 
-joblib.dump(feature_importance, PROJECT_ROOT / "data/processed/feature_importance.pkl")
+non_numeric_columns = dataset_handled.select_dtypes(exclude=['number']).columns
+print(f"⚠️ Non-numeric columns found in Dataset: {list(non_numeric_columns)}")
 
-# Apply selected features to X_train and X_test
-X_train = X_train[selected_features]
-X_test = X_test[selected_features]
-print(f"✅ X_train and X_test updated with {len(selected_features)} selected features.")
-
-non_numeric_columns = X_train.select_dtypes(exclude=['number']).columns
-print(f"⚠️ Non-numeric columns found in X_train: {list(non_numeric_columns)}")
-
-missing_per_column = X_train.isnull().sum()
+missing_per_column = dataset_handled.isnull().sum()
 print(missing_per_column[missing_per_column > 0])
+print(dataset_handled.dtypes.value_counts())
 
-missing_per_column = X_test.isnull().sum()
-print(missing_per_column[missing_per_column > 0])
-
-print(X_train.dtypes.value_counts())
-print(X_test.dtypes.value_counts())
-
-X_train = X_train.astype({col: "int32" for col in X_train.select_dtypes(include=["int64"]).columns})
-X_test = X_test.astype({col: "int32" for col in X_test.select_dtypes(include=["int64"]).columns})
-X_train = X_train.astype({col: "float32" for col in X_train.select_dtypes(include=["float64"]).columns})
-X_test = X_test.astype({col: "float32" for col in X_test.select_dtypes(include=["float64"]).columns})
+dataset_handled = dataset_handled.astype({col: "int32" for col in dataset_handled.select_dtypes(include=["int64"]).columns})
+dataset_handled = dataset_handled.astype({col: "float32" for col in dataset_handled.select_dtypes(include=["float64"]).columns})
 print("✅ Converted all int64 columns to int32 and all float64 to float32")
 
-print(X_train.dtypes.value_counts())
-print(X_test.dtypes.value_counts())
+print(dataset_handled.dtypes.value_counts())
 
-missing_in_test = set(X_train.columns) - set(X_test.columns)
-missing_in_train = set(X_test.columns) - set(X_train.columns)
-
-if missing_in_test or missing_in_train:
-    print(f"⚠️ Columns in train but not in test: {missing_in_test}")
-    print(f"⚠️ Columns in test but not in train: {missing_in_train}")
-
-X_train_np = X_train.to_numpy()
-X_test_np = X_test.to_numpy()
-
-# Ensure shapes are correct
-print(f"🔹 X_train shape: {X_train_np.shape}")
-print(f"🔹 X_test shape: {X_test_np.shape}")
-
-processed_data_path = PROJECT_ROOT / "data/processed/XBG_FE_processed_data.pkl"
-with open(processed_data_path, "wb") as f:
-    pickle.dump({"X_train": X_train, "X_test": X_test, "y_train": y_train, "y_test": y_test}, f)
+processed_data_path = PROJECT_ROOT / "src" / "sample_data" / "inference_input_processed.pkl"
+processed_data_path.parent.mkdir(parents=True, exist_ok=True)
+joblib.dump({"X_input": dataset_handled}, processed_data_path)
