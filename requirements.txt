@@ -12,3 +12,4 @@ torch==2.5.1
 tqdm
 xgboost
 uvicorn[standard]
+python-multipart

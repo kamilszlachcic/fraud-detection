@@ -166,12 +166,18 @@ metrics = {
 # Save metrics
 metrics_path = RESULTS_DIR / "XGB_metrics.json"
 if metrics_path.exists():
-    with open(metrics_path, "r") as f:
-        all_metrics = json.load(f)
+    try:
+        with open(metrics_path, "r") as f:
+            all_metrics = json.load(f)
+            if not isinstance(all_metrics, list):
+                all_metrics = [all_metrics]
+    except json.JSONDecodeError:
+        all_metrics = []
 else:
     all_metrics = []
 
 all_metrics.append(metrics)
+
 with open(metrics_path, "w") as f:
     json.dump(all_metrics, f, indent=4)
 
