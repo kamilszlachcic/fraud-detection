@@ -1,14 +1,25 @@
+# Folders with large or unneeded data
 data/
-models/
-results/
-*.pkl
-*.csv
-*.parquet
+notebooks/
 __pycache__/
-*.pyc
-*.db
 .venv/
 .ipynb_checkpoints/
+
+# Output & artifacts
+*.pyc
+*.csv
+*.parquet
 *.log
-.env
+*.db
+
+# Editor and environment files
 .DS_Store
+.env
+*.env
+.idea/
+.vscode/
+
+# Python build artifacts
+*.egg-info/
+dist/
+build/

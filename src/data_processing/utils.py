@@ -9,15 +9,15 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 def load_and_merge(transaction_file: Path, identity_file: Path) -> pd.DataFrame:
     """
-    Loads and merges transaction and identity CSV files based on 'TransactionID'.
+        Loads and merges transaction and identity CSV files based on 'TransactionID'.
 
-    Args:
-        transaction_file (str): Relative or absolute path to the transaction CSV.
-        identity_file (str): Relative or absolute path to the identity CSV.
+        Args:
+            transaction_file (str): Relative or absolute path to the transaction CSV.
+            identity_file (str): Relative or absolute path to the identity CSV.
 
-    Returns:
-        pd.DataFrame: Merged dataset with TransactionID as index.
-    """
+        Returns:
+            pd.DataFrame: Merged dataset with TransactionID as index.
+        """
     df1 = pd.read_csv(transaction_file)
     df2 = pd.read_csv(identity_file)
     df = df1.merge(df2, how='left')
@@ -68,8 +68,6 @@ def drop_v_columns(df):
     return df
 
 
-
-
 def detect_columns_to_scale(df: pd.DataFrame, threshold: int = 10) -> list:
     """
     Detects numeric columns that should be scaled, excluding binary and categorical-like features.
@@ -107,8 +105,8 @@ def fit_scaler_and_scale(df: pd.DataFrame, columns_to_scale: list, save: bool = 
     df_scaled[columns_to_scale] = scaler.fit_transform(df_scaled[columns_to_scale])
 
     if save:
-        joblib.dump(scaler, PROJECT_ROOT / "data/processed/standard_scaler.pkl")
-        joblib.dump(columns_to_scale, PROJECT_ROOT / "data/processed/scaled_columns.pkl")
+        joblib.dump(scaler, PROJECT_ROOT / "src/data_processing/standard_scaler.pkl")
+        joblib.dump(columns_to_scale, PROJECT_ROOT / "src/data_processing/scaled_columns.pkl")
         print("✅ Scaler and column list saved.")
 
     return df_scaled, scaler
@@ -124,8 +122,8 @@ def load_scaler_and_scale(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         pd.DataFrame: Scaled dataframe.
     """
-    scaler = joblib.load(PROJECT_ROOT / "data/processed/standard_scaler.pkl")
-    columns_to_scale = joblib.load(PROJECT_ROOT / "data/processed/scaled_columns.pkl")
+    scaler = joblib.load(PROJECT_ROOT / "src/data_processing/standard_scaler.pkl")
+    columns_to_scale = joblib.load(PROJECT_ROOT / "src/data_processing/scaled_columns.pkl")
 
     df_scaled = df.copy()
     df_scaled[columns_to_scale] = scaler.transform(df_scaled[columns_to_scale])

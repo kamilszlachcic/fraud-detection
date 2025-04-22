@@ -9,27 +9,22 @@ from datetime import datetime
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import roc_auc_score, precision_score, recall_score, f1_score, average_precision_score
 
-from src.data_preprocessing.utils import (
+from src.data_processing.utils import (
     load_and_merge,
     drop_v_columns,
     detect_columns_to_scale,
     fit_scaler_and_scale,
     split_train_test
 )
-from src.data_preprocessing.feature_engineering import preprocess_and_engineer_features
+from src.data_processing.feature_engineering import preprocess_and_engineer_features
+from src.config import MODELS_DIR, DATA_PROCESSING_DIR, DATA_RAW_DIR, RESULTS_DIR
 
-# === Paths ===
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RAW_DIR = PROJECT_ROOT / "data/raw"
-PROCESSED_DIR = PROJECT_ROOT / "data/processed"
-MODELS_DIR = PROJECT_ROOT / "models"
-RESULTS_DIR = PROJECT_ROOT / "results"
 
 # === Load and preprocess ===
 print("\n🚀 [1] Loading and preprocessing raw data...")
 df = load_and_merge(
-    transaction_file=RAW_DIR / "train_transaction.csv",
-    identity_file=RAW_DIR / "train_identity.csv"
+    transaction_file=DATA_RAW_DIR / "train_transaction.csv",
+    identity_file=DATA_RAW_DIR / "train_identity.csv"
 )
 df = drop_v_columns(df)
 df = preprocess_and_engineer_features(df)
@@ -82,8 +77,8 @@ print(
 )
 
 # Save results
-joblib.dump(feature_importance, PROCESSED_DIR / "feature_importance.pkl")
-joblib.dump(selected_features, PROCESSED_DIR / "selected_features.pkl")
+joblib.dump(feature_importance, DATA_PROCESSING_DIR / "feature_importance.pkl")
+joblib.dump(selected_features, DATA_PROCESSING_DIR / "selected_features.pkl")
 
 
 plt.figure(figsize=(20, 8))

@@ -1,14 +1,12 @@
 from fastapi import FastAPI, UploadFile, File
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
 import pandas as pd
 import io
-import joblib
-import pickle
 import json
 from datetime import datetime
-from pathlib import Path
 
 from src.pipeline.inference_pipeline import run_inference
+from src.config import PREDICTION_LOG_PATH, RESULTS_DIR
 
 app = FastAPI(
     title="Fraud Detection API 🚨",
@@ -16,23 +14,10 @@ app = FastAPI(
     version="1.0"
 )
 
-# === Paths ===
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-MODEL_PATH = PROJECT_ROOT / "models/XGB_model.pkl"
-SAMPLE_DATA_PATH = PROJECT_ROOT / "data/processed/inference_input_processed.pkl"
-LOG_PATH = PROJECT_ROOT / "logs"
-LOG_PATH.mkdir(exist_ok=True)
-PREDICTION_LOG = LOG_PATH / "predictions.log.jsonl"
-
-# === Load model ===
-with open(MODEL_PATH, "rb") as f:
-    model_data = pickle.load(f)
-
-
 # === Helper: log predictions ===
 def log_predictions(transaction_ids, preds, probs, source):
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(PREDICTION_LOG, "a") as log_file:
+    with open(PREDICTION_LOG_PATH, "a") as log_file:
         for tid, pred, prob in zip(transaction_ids, preds, probs):
             record = {
                 "TransactionID": int(tid) if pd.notna(tid) else None,
@@ -66,7 +51,8 @@ async def predict_raw_files(
         log_predictions(df["TransactionID"], preds, probs, source="raw_files")
 
         results = [
-            {"prediction": int(p), "probability": round(float(prob), 4)}
+            {"prediction": int(p),
+             "probability": float("{:.6f}".format(prob))}
             for p, prob in zip(preds, probs)
         ]
         return {"results": results[:50]}  # return preview
@@ -74,25 +60,36 @@ async def predict_raw_files(
     except Exception as e:
         return JSONResponse(status_code=500, content={"error": str(e)})
 
+@app.get("/get_alerts/")
+def get_alerts():
+    alerts_path = RESULTS_DIR / "alerts.json"
+    if alerts_path.exists():
+        with open(alerts_path, "r", encoding="utf-8") as f:
+            alerts = json.load(f)
+        return {"n_alerts": len(alerts), "alerts": alerts}
+    else:
+        return JSONResponse(status_code=404, content={"error": "alerts.json not found"})
 
-# === Endpoint: predict from inference_input_processed .pkl ===
-@app.get("/predict_input_processed/")
-def predict_from_input_processed():
+@app.get("/download/alerts/")
+def download_alerts():
+    alerts_path = RESULTS_DIR / "alerts.json"
+    if alerts_path.exists():
+        return FileResponse(alerts_path, media_type='application/json', filename="alerts.json")
+    else:
+        return JSONResponse(status_code=404, content={"error": "alerts.json not found"})
+
+from src.config import PREDICTION_LOG_PATH
+
+@app.get("/get_predictions/")
+def get_predictions():
     try:
-        sample = joblib.load(SAMPLE_DATA_PATH)
-        df = sample["X_input"]
-
-        preds, probs = run_inference(df)
-
-        # Log predictions
-        log_predictions(df.index if "TransactionID" not in df.columns else df["TransactionID"], preds, probs,
-                        source="processed")
-
-        results = [
-            {"prediction": int(p), "probability": round(float(prob), 4)}
-            for p, prob in zip(preds, probs)
-        ]
-        return {"results": results[:10]}
-
+        with open(PREDICTION_LOG_PATH, "r", encoding="utf-8") as f:
+            records = [json.loads(line) for line in f.readlines()[:50]]  # lub f.readlines()[-50:]
+        return {
+            "n_predictions": len(records),
+            "predictions": records
+        }
+    except FileNotFoundError:
+        return JSONResponse(status_code=404, content={"error": "predictions.log.jsonl not found"})
     except Exception as e:
         return JSONResponse(status_code=500, content={"error": str(e)})

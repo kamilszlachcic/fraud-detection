@@ -4,23 +4,18 @@ import joblib
 import pickle
 import json
 
-from src.data_preprocessing.utils import drop_v_columns, load_scaler_and_scale
-from src.data_preprocessing.feature_engineering import preprocess_and_engineer_features
+from src.data_processing.utils import drop_v_columns, load_scaler_and_scale
+from src.data_processing.feature_engineering import preprocess_and_engineer_features
+from src.config import XGB_MODEL_PATH, RESULTS_DIR
 
-# === Paths ===
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-PROCESSED_DIR = PROJECT_ROOT / "data/processed"
-MODELS_DIR = PROJECT_ROOT / "models"
-RESULTS_DIR = PROJECT_ROOT / "results"
-RESULTS_DIR.mkdir(exist_ok=True)
-
-# === Load model and metadata ===
-with open(MODELS_DIR / "XGB_model.pkl", "rb") as f:
-    model_bundle = pickle.load(f)
-
-model = model_bundle["model"]
-calibrator = model_bundle["calibrator"]
-feature_names = model_bundle["feature_names"]
+def load_model_bundle():
+    with open(XGB_MODEL_PATH, "rb") as f:
+        model_bundle = pickle.load(f)
+    return (
+        model_bundle["model"],
+        model_bundle["calibrator"],
+        model_bundle["feature_names"]
+    )
 
 # === Inference function ===
 def run_inference(df_input: pd.DataFrame):
@@ -30,6 +25,9 @@ def run_inference(df_input: pd.DataFrame):
     Returns binary predictions and calibrated probabilities.
     """
     print("\n📥 Starting inference pipeline...")
+
+    # 0. Load model bundle
+    model, calibrator, feature_names = load_model_bundle()
 
     # 1. Drop V-columns
     df = drop_v_columns(df_input)
@@ -42,6 +40,18 @@ def run_inference(df_input: pd.DataFrame):
 
     # 4. Select only model-relevant features
     df = df[feature_names]
+
+    print("🎯 Predicting with df.shape =", df.shape)
+    print("🎯 df.head():")
+    print(df.head())
+
+    print("🎯 NaNs in df:", df.isnull().sum().sum())
+    print("🎯 Unique rows:", df.drop_duplicates().shape[0])
+
+    raw_probs = model.predict_proba(df)[:, 1]
+    print("🎯 raw_probs[:10]:", raw_probs[:10])
+    calib_probs = calibrator.predict_proba(df)[:, 1]
+    print("🎯 calib_probs[:10]:", calib_probs[:10])
 
     # 5. Predict
     probs = calibrator.predict_proba(df)[:, 1]
