@@ -59,5 +59,31 @@
             "eval_metric": "aucpr",
             "early_stopping_rounds": 0
         }
+    },
+    {
+        "roc_auc": 0.9769,
+        "precision": 0.9599,
+        "recall": 0.707,
+        "f1_score": 0.8143,
+        "pr_auc": 0.8805,
+        "threshold": 0.15,
+        "best_iteration": 2499,
+        "timestamp": "2025-04-22 15:28:14",
+        "params": {
+            "max_depth": 12,
+            "learning_rate": 0.017309377551183877,
+            "subsample": 0.8,
+            "colsample_bytree": 0.6,
+            "scale_pos_weight": 40,
+            "min_child_weight": 9,
+            "gamma": 0.0010464167006924024,
+            "reg_alpha": 0.3487091763789718,
+            "reg_lambda": 9.441098792689792e-05,
+            "n_estimators": 2499,
+            "nthread": -1,
+            "random_state": 42,
+            "eval_metric": "aucpr",
+            "early_stopping_rounds": 0
+        }
     }
 ]

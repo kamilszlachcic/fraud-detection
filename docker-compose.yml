@@ -1,17 +1,19 @@
-version: "3.9"
-
 services:
   fraud-api:
+    container_name: fraud-api
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
     volumes:
-      - .:/app
-    command: >
-      poetry run uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+      - ./:/app    # Cały projekt montowany jako volume
     environment:
       POETRY_VIRTUALENVS_CREATE: "false"
       PYTHONUNBUFFERED: "1"
+      SPARK_HOME: "/opt/spark"
+      JAVA_HOME: "/usr/lib/jvm/java-11-openjdk-amd64"
+      PYSPARK_PYTHON: "python3"
+    command: >
+      uvicorn src.api.main:app --host 0.0.0.0 --port 8000
     restart: unless-stopped

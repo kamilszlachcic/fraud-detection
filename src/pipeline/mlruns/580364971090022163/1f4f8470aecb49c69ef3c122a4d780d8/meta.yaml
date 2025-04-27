@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/kamil/Desktop/Personal-projects/fraud-detection/src/pipeline/mlruns/580364971090022163/1f4f8470aecb49c69ef3c122a4d780d8/artifacts
+end_time: 1745328494619
+entry_point_name: ''
+experiment_id: '580364971090022163'
+lifecycle_stage: active
+run_id: 1f4f8470aecb49c69ef3c122a4d780d8
+run_name: xgb_final_20250422_145503
+run_uuid: 1f4f8470aecb49c69ef3c122a4d780d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745326517448
+status: 3
+tags: []
+user_id: kamil

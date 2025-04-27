@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/kamil/Desktop/Personal-projects/fraud-detection/src/pipeline/mlruns/580364971090022163
+creation_time: 1745326503465
+experiment_id: '580364971090022163'
+last_update_time: 1745326503465
+lifecycle_stage: active
+name: fraud_detection_experiment

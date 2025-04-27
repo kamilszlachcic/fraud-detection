@@ -1,4 +1,3 @@
-from pathlib import Path
 import pandas as pd
 import xgboost as xgb
 import joblib
@@ -6,6 +5,10 @@ import pickle
 import json
 import matplotlib.pyplot as plt
 from datetime import datetime
+
+import mlflow
+import mlflow.xgboost
+
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import roc_auc_score, precision_score, recall_score, f1_score, average_precision_score
 
@@ -93,6 +96,15 @@ plt.close()
 X_train = X_train[selected_features]
 X_test = X_test[selected_features]
 
+# === MLflow] Initializing experiment tracking ===
+print("\n📘 [MLflow] Initializing experiment tracking...")
+
+mlflow.set_tracking_uri("file:./mlruns")
+mlflow.set_experiment("fraud_detection_experiment")
+
+mlflow_run_name = f"xgb_final_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+mlflow.start_run(run_name=mlflow_run_name)
+
 # === Step 2: Train with Optuna parameters ===
 print("\n🏆 [5] Training final model with best Optuna parameters...")
 
@@ -109,6 +121,8 @@ best_params.update({
 
 print("✅ Loaded best hyperparameters from Optuna tuning")
 print(f"Best parameters: ", best_params)
+
+mlflow.log_params(best_params)
 
 # Step 2.1: Train with early stopping to find best_iteration
 temp_model = xgb.XGBClassifier(**best_params)
@@ -158,6 +172,15 @@ metrics = {
     "params": best_params
 }
 
+mlflow.log_metrics({
+    "roc_auc": metrics["roc_auc"],
+    "precision": metrics["precision"],
+    "recall": metrics["recall"],
+    "f1_score": metrics["f1_score"],
+    "pr_auc": metrics["pr_auc"]
+})
+
+
 # Save metrics
 metrics_path = RESULTS_DIR / "XGB_metrics.json"
 if metrics_path.exists():
@@ -189,4 +212,11 @@ model_artifacts = {
 with open(MODELS_DIR / "XGB_model.pkl", "wb") as f:
     pickle.dump(model_artifacts, f)
 
+mlflow.log_artifact(str(MODELS_DIR / "XGB_model.pkl"))
+mlflow.log_artifact(str(DATA_PROCESSING_DIR / "feature_importance.pkl"))
+mlflow.log_artifact(str(DATA_PROCESSING_DIR / "selected_features.pkl"))
+mlflow.log_artifact(str(RESULTS_DIR / "top50_feature_importance.png"))
+mlflow.log_artifact(str(metrics_path))
+
 print("\n🎉 Training pipeline complete!")
+mlflow.end_run()

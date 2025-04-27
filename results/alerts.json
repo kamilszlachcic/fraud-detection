@@ -1,0 +1,4070 @@
+[
+    {
+        "TransactionID": 3663769,
+        "fraud_probability": 0.9994499069871036
+    },
+    {
+        "TransactionID": 3663778,
+        "fraud_probability": 0.9103336155653207
+    },
+    {
+        "TransactionID": 3663780,
+        "fraud_probability": 0.1548694197787562
+    },
+    {
+        "TransactionID": 3663811,
+        "fraud_probability": 0.8868858400255959
+    },
+    {
+        "TransactionID": 3663812,
+        "fraud_probability": 0.39435811032406237
+    },
+    {
+        "TransactionID": 3663813,
+        "fraud_probability": 0.47435835833599654
+    },
+    {
+        "TransactionID": 3663821,
+        "fraud_probability": 0.9679932803230084
+    },
+    {
+        "TransactionID": 3663827,
+        "fraud_probability": 0.9994099723278899
+    },
+    {
+        "TransactionID": 3663828,
+        "fraud_probability": 0.9990840507173029
+    },
+    {
+        "TransactionID": 3663836,
+        "fraud_probability": 0.99949824901476
+    },
+    {
+        "TransactionID": 3664103,
+        "fraud_probability": 0.9992405480114682
+    },
+    {
+        "TransactionID": 3664259,
+        "fraud_probability": 0.9991528233835508
+    },
+    {
+        "TransactionID": 3664660,
+        "fraud_probability": 0.9994103974439251
+    },
+    {
+        "TransactionID": 3664887,
+        "fraud_probability": 0.998941126098295
+    },
+    {
+        "TransactionID": 3664908,
+        "fraud_probability": 0.9994336171805419
+    },
+    {
+        "TransactionID": 3664913,
+        "fraud_probability": 0.9771523584195198
+    },
+    {
+        "TransactionID": 3664919,
+        "fraud_probability": 0.9992656106676016
+    },
+    {
+        "TransactionID": 3664921,
+        "fraud_probability": 0.9994526738820749
+    },
+    {
+        "TransactionID": 3664927,
+        "fraud_probability": 0.8875195811843478
+    },
+    {
+        "TransactionID": 3664992,
+        "fraud_probability": 0.9993739733586422
+    },
+    {
+        "TransactionID": 3665000,
+        "fraud_probability": 0.9994502460389997
+    },
+    {
+        "TransactionID": 3665370,
+        "fraud_probability": 0.9914119784791511
+    },
+    {
+        "TransactionID": 3665376,
+        "fraud_probability": 0.746941038178928
+    },
+    {
+        "TransactionID": 3665387,
+        "fraud_probability": 0.9994682812872717
+    },
+    {
+        "TransactionID": 3666305,
+        "fraud_probability": 0.8758418141684658
+    },
+    {
+        "TransactionID": 3666309,
+        "fraud_probability": 0.9969024800110902
+    },
+    {
+        "TransactionID": 3666314,
+        "fraud_probability": 0.996165735954539
+    },
+    {
+        "TransactionID": 3666396,
+        "fraud_probability": 0.9983220338591943
+    },
+    {
+        "TransactionID": 3666397,
+        "fraud_probability": 0.9873198339077438
+    },
+    {
+        "TransactionID": 3666401,
+        "fraud_probability": 0.9994761850239783
+    },
+    {
+        "TransactionID": 3666405,
+        "fraud_probability": 0.9943533246363834
+    },
+    {
+        "TransactionID": 3666489,
+        "fraud_probability": 0.9992431443291672
+    },
+    {
+        "TransactionID": 3666490,
+        "fraud_probability": 0.999053136151535
+    },
+    {
+        "TransactionID": 3666491,
+        "fraud_probability": 0.9993864036525548
+    },
+    {
+        "TransactionID": 3666492,
+        "fraud_probability": 0.9991499402728425
+    },
+    {
+        "TransactionID": 3666502,
+        "fraud_probability": 0.21670775893106423
+    },
+    {
+        "TransactionID": 3667443,
+        "fraud_probability": 0.936116400213707
+    },
+    {
+        "TransactionID": 3667459,
+        "fraud_probability": 0.8331499229512309
+    },
+    {
+        "TransactionID": 3667601,
+        "fraud_probability": 0.9922157994894705
+    },
+    {
+        "TransactionID": 3667605,
+        "fraud_probability": 0.9994038108988766
+    },
+    {
+        "TransactionID": 3667607,
+        "fraud_probability": 0.9994720246824117
+    },
+    {
+        "TransactionID": 3667612,
+        "fraud_probability": 0.9994975281373462
+    },
+    {
+        "TransactionID": 3667616,
+        "fraud_probability": 0.9994998351820394
+    },
+    {
+        "TransactionID": 3667621,
+        "fraud_probability": 0.9995016999098394
+    },
+    {
+        "TransactionID": 3667625,
+        "fraud_probability": 0.999501471282977
+    },
+    {
+        "TransactionID": 3667628,
+        "fraud_probability": 0.9995006955467073
+    },
+    {
+        "TransactionID": 3667632,
+        "fraud_probability": 0.9994976538418755
+    },
+    {
+        "TransactionID": 3667638,
+        "fraud_probability": 0.9995014564334521
+    },
+    {
+        "TransactionID": 3667639,
+        "fraud_probability": 0.9995018275389754
+    },
+    {
+        "TransactionID": 3667910,
+        "fraud_probability": 0.5646214113471346
+    },
+    {
+        "TransactionID": 3667929,
+        "fraud_probability": 0.9994135358991232
+    },
+    {
+        "TransactionID": 3667937,
+        "fraud_probability": 0.999441016239772
+    },
+    {
+        "TransactionID": 3667960,
+        "fraud_probability": 0.9994783414650076
+    },
+    {
+        "TransactionID": 3667970,
+        "fraud_probability": 0.9994819616116355
+    },
+    {
+        "TransactionID": 3667979,
+        "fraud_probability": 0.999494250267616
+    },
+    {
+        "TransactionID": 3667989,
+        "fraud_probability": 0.9994936971063358
+    },
+    {
+        "TransactionID": 3668314,
+        "fraud_probability": 0.9994894264329547
+    },
+    {
+        "TransactionID": 3668318,
+        "fraud_probability": 0.9994939127151629
+    },
+    {
+        "TransactionID": 3668431,
+        "fraud_probability": 0.999444167314828
+    },
+    {
+        "TransactionID": 3668433,
+        "fraud_probability": 0.9994306013921882
+    },
+    {
+        "TransactionID": 3668442,
+        "fraud_probability": 0.9994156038368551
+    },
+    {
+        "TransactionID": 3668731,
+        "fraud_probability": 0.9988749809904848
+    },
+    {
+        "TransactionID": 3668742,
+        "fraud_probability": 0.9992316583556604
+    },
+    {
+        "TransactionID": 3668748,
+        "fraud_probability": 0.9993190490014485
+    },
+    {
+        "TransactionID": 3668993,
+        "fraud_probability": 0.9978870954548339
+    },
+    {
+        "TransactionID": 3668994,
+        "fraud_probability": 0.9703092719335892
+    },
+    {
+        "TransactionID": 3668998,
+        "fraud_probability": 0.9958790792902658
+    },
+    {
+        "TransactionID": 3669001,
+        "fraud_probability": 0.9994427666374172
+    },
+    {
+        "TransactionID": 3669003,
+        "fraud_probability": 0.9973402723745183
+    },
+    {
+        "TransactionID": 3669065,
+        "fraud_probability": 0.9993956461330914
+    },
+    {
+        "TransactionID": 3669079,
+        "fraud_probability": 0.9971725694541307
+    },
+    {
+        "TransactionID": 3669468,
+        "fraud_probability": 0.9994705301802014
+    },
+    {
+        "TransactionID": 3670174,
+        "fraud_probability": 0.9960203172017927
+    },
+    {
+        "TransactionID": 3670179,
+        "fraud_probability": 0.6653492928176484
+    },
+    {
+        "TransactionID": 3670287,
+        "fraud_probability": 0.8629713091750947
+    },
+    {
+        "TransactionID": 3670666,
+        "fraud_probability": 0.9984070033693931
+    },
+    {
+        "TransactionID": 3670669,
+        "fraud_probability": 0.9993542720458477
+    },
+    {
+        "TransactionID": 3670672,
+        "fraud_probability": 0.9991445802668437
+    },
+    {
+        "TransactionID": 3670673,
+        "fraud_probability": 0.9994616535751436
+    },
+    {
+        "TransactionID": 3670679,
+        "fraud_probability": 0.9994935130877696
+    },
+    {
+        "TransactionID": 3670683,
+        "fraud_probability": 0.9994920385306482
+    },
+    {
+        "TransactionID": 3671604,
+        "fraud_probability": 0.3624664034183149
+    },
+    {
+        "TransactionID": 3671609,
+        "fraud_probability": 0.9868394081364765
+    },
+    {
+        "TransactionID": 3671629,
+        "fraud_probability": 0.4151266031014446
+    },
+    {
+        "TransactionID": 3671725,
+        "fraud_probability": 0.4646914697973496
+    },
+    {
+        "TransactionID": 3671738,
+        "fraud_probability": 0.9992436670319428
+    },
+    {
+        "TransactionID": 3671739,
+        "fraud_probability": 0.9988700910441529
+    },
+    {
+        "TransactionID": 3672083,
+        "fraud_probability": 0.998994313368579
+    },
+    {
+        "TransactionID": 3672085,
+        "fraud_probability": 0.9993667746436555
+    },
+    {
+        "TransactionID": 3672088,
+        "fraud_probability": 0.9994216400149004
+    },
+    {
+        "TransactionID": 3672094,
+        "fraud_probability": 0.9993789391403606
+    },
+    {
+        "TransactionID": 3672128,
+        "fraud_probability": 0.9994744800684912
+    },
+    {
+        "TransactionID": 3672265,
+        "fraud_probability": 0.9992433741825949
+    },
+    {
+        "TransactionID": 3672371,
+        "fraud_probability": 0.31116974078431436
+    },
+    {
+        "TransactionID": 3672466,
+        "fraud_probability": 0.999423184826349
+    },
+    {
+        "TransactionID": 3672474,
+        "fraud_probability": 0.9992363435433393
+    },
+    {
+        "TransactionID": 3672479,
+        "fraud_probability": 0.9991607922470626
+    },
+    {
+        "TransactionID": 3672482,
+        "fraud_probability": 0.9994274808918091
+    },
+    {
+        "TransactionID": 3672485,
+        "fraud_probability": 0.9994896666611356
+    },
+    {
+        "TransactionID": 3672610,
+        "fraud_probability": 0.30332622477565585
+    },
+    {
+        "TransactionID": 3672614,
+        "fraud_probability": 0.7414438331032009
+    },
+    {
+        "TransactionID": 3672660,
+        "fraud_probability": 0.9994710267160587
+    },
+    {
+        "TransactionID": 3672661,
+        "fraud_probability": 0.9994854984174497
+    },
+    {
+        "TransactionID": 3672674,
+        "fraud_probability": 0.9994213143556395
+    },
+    {
+        "TransactionID": 3672677,
+        "fraud_probability": 0.9994788229175524
+    },
+    {
+        "TransactionID": 3672679,
+        "fraud_probability": 0.9991669268601577
+    },
+    {
+        "TransactionID": 3672917,
+        "fraud_probability": 0.998765623958801
+    },
+    {
+        "TransactionID": 3673075,
+        "fraud_probability": 0.9955056184757273
+    },
+    {
+        "TransactionID": 3673673,
+        "fraud_probability": 0.9823600867957211
+    },
+    {
+        "TransactionID": 3673787,
+        "fraud_probability": 0.9987443652452173
+    },
+    {
+        "TransactionID": 3673922,
+        "fraud_probability": 0.3396840258841048
+    },
+    {
+        "TransactionID": 3674106,
+        "fraud_probability": 0.9980502494066398
+    },
+    {
+        "TransactionID": 3674331,
+        "fraud_probability": 0.9994116306529816
+    },
+    {
+        "TransactionID": 3674541,
+        "fraud_probability": 0.9979077107642262
+    },
+    {
+        "TransactionID": 3674913,
+        "fraud_probability": 0.9994946538293554
+    },
+    {
+        "TransactionID": 3674916,
+        "fraud_probability": 0.9994946357663118
+    },
+    {
+        "TransactionID": 3674917,
+        "fraud_probability": 0.9994960562572887
+    },
+    {
+        "TransactionID": 3674923,
+        "fraud_probability": 0.9994915677657896
+    },
+    {
+        "TransactionID": 3674931,
+        "fraud_probability": 0.9994857374293026
+    },
+    {
+        "TransactionID": 3674934,
+        "fraud_probability": 0.999498768839606
+    },
+    {
+        "TransactionID": 3674936,
+        "fraud_probability": 0.9994455826381103
+    },
+    {
+        "TransactionID": 3674964,
+        "fraud_probability": 0.9861984963274502
+    },
+    {
+        "TransactionID": 3674991,
+        "fraud_probability": 0.9993154072859499
+    },
+    {
+        "TransactionID": 3675061,
+        "fraud_probability": 0.962477018640193
+    },
+    {
+        "TransactionID": 3675069,
+        "fraud_probability": 0.9867702592283086
+    },
+    {
+        "TransactionID": 3675092,
+        "fraud_probability": 0.9992988722233263
+    },
+    {
+        "TransactionID": 3675139,
+        "fraud_probability": 0.9986481279142978
+    },
+    {
+        "TransactionID": 3675147,
+        "fraud_probability": 0.9994496316609197
+    },
+    {
+        "TransactionID": 3675149,
+        "fraud_probability": 0.9994900556518209
+    },
+    {
+        "TransactionID": 3675152,
+        "fraud_probability": 0.9966726077975495
+    },
+    {
+        "TransactionID": 3675153,
+        "fraud_probability": 0.9991321348653098
+    },
+    {
+        "TransactionID": 3675162,
+        "fraud_probability": 0.9988730168185606
+    },
+    {
+        "TransactionID": 3675164,
+        "fraud_probability": 0.9993339888248579
+    },
+    {
+        "TransactionID": 3675165,
+        "fraud_probability": 0.9993334113863921
+    },
+    {
+        "TransactionID": 3675167,
+        "fraud_probability": 0.9992083404295815
+    },
+    {
+        "TransactionID": 3675170,
+        "fraud_probability": 0.9993223061557939
+    },
+    {
+        "TransactionID": 3675173,
+        "fraud_probability": 0.9994178396365401
+    },
+    {
+        "TransactionID": 3675175,
+        "fraud_probability": 0.9994497660635208
+    },
+    {
+        "TransactionID": 3675178,
+        "fraud_probability": 0.9994700394925582
+    },
+    {
+        "TransactionID": 3675197,
+        "fraud_probability": 0.9994956072430525
+    },
+    {
+        "TransactionID": 3675198,
+        "fraud_probability": 0.9994995490584293
+    },
+    {
+        "TransactionID": 3675200,
+        "fraud_probability": 0.9994994118995624
+    },
+    {
+        "TransactionID": 3675224,
+        "fraud_probability": 0.997723374477363
+    },
+    {
+        "TransactionID": 3675228,
+        "fraud_probability": 0.9993466971350707
+    },
+    {
+        "TransactionID": 3675229,
+        "fraud_probability": 0.9993211851101578
+    },
+    {
+        "TransactionID": 3675636,
+        "fraud_probability": 0.9985559406064884
+    },
+    {
+        "TransactionID": 3675664,
+        "fraud_probability": 0.9984028839623754
+    },
+    {
+        "TransactionID": 3675671,
+        "fraud_probability": 0.9993734828134069
+    },
+    {
+        "TransactionID": 3675776,
+        "fraud_probability": 0.9619324328643611
+    },
+    {
+        "TransactionID": 3675896,
+        "fraud_probability": 0.998228028374486
+    },
+    {
+        "TransactionID": 3675928,
+        "fraud_probability": 0.99887161366118
+    },
+    {
+        "TransactionID": 3675964,
+        "fraud_probability": 0.9993548852231442
+    },
+    {
+        "TransactionID": 3675972,
+        "fraud_probability": 0.9993219831614034
+    },
+    {
+        "TransactionID": 3676293,
+        "fraud_probability": 0.9558655114250321
+    },
+    {
+        "TransactionID": 3676374,
+        "fraud_probability": 0.9993526604058219
+    },
+    {
+        "TransactionID": 3676446,
+        "fraud_probability": 0.9976469651960829
+    },
+    {
+        "TransactionID": 3676447,
+        "fraud_probability": 0.998741308215394
+    },
+    {
+        "TransactionID": 3676474,
+        "fraud_probability": 0.9985132350102015
+    },
+    {
+        "TransactionID": 3676479,
+        "fraud_probability": 0.9956629604216476
+    },
+    {
+        "TransactionID": 3676480,
+        "fraud_probability": 0.9994909131179602
+    },
+    {
+        "TransactionID": 3676522,
+        "fraud_probability": 0.9934615695474688
+    },
+    {
+        "TransactionID": 3676531,
+        "fraud_probability": 0.4185153743146784
+    },
+    {
+        "TransactionID": 3676536,
+        "fraud_probability": 0.9990276735950472
+    },
+    {
+        "TransactionID": 3676542,
+        "fraud_probability": 0.9987763639937606
+    },
+    {
+        "TransactionID": 3676575,
+        "fraud_probability": 0.9985094386929707
+    },
+    {
+        "TransactionID": 3676577,
+        "fraud_probability": 0.9993305146869347
+    },
+    {
+        "TransactionID": 3676581,
+        "fraud_probability": 0.9992019522833095
+    },
+    {
+        "TransactionID": 3676587,
+        "fraud_probability": 0.9990495293307664
+    },
+    {
+        "TransactionID": 3676592,
+        "fraud_probability": 0.9988531037848414
+    },
+    {
+        "TransactionID": 3676611,
+        "fraud_probability": 0.9994572501872756
+    },
+    {
+        "TransactionID": 3676643,
+        "fraud_probability": 0.905181414561393
+    },
+    {
+        "TransactionID": 3676669,
+        "fraud_probability": 0.9086661602164857
+    },
+    {
+        "TransactionID": 3676676,
+        "fraud_probability": 0.9992721358306446
+    },
+    {
+        "TransactionID": 3676707,
+        "fraud_probability": 0.9959626368877849
+    },
+    {
+        "TransactionID": 3676883,
+        "fraud_probability": 0.9992522419607514
+    },
+    {
+        "TransactionID": 3676919,
+        "fraud_probability": 0.9785483659479374
+    },
+    {
+        "TransactionID": 3676930,
+        "fraud_probability": 0.824406090285605
+    },
+    {
+        "TransactionID": 3676975,
+        "fraud_probability": 0.9634664765196251
+    },
+    {
+        "TransactionID": 3676982,
+        "fraud_probability": 0.3172818464801234
+    },
+    {
+        "TransactionID": 3677000,
+        "fraud_probability": 0.9850306957925691
+    },
+    {
+        "TransactionID": 3677003,
+        "fraud_probability": 0.997072269760899
+    },
+    {
+        "TransactionID": 3677170,
+        "fraud_probability": 0.9953770875630743
+    },
+    {
+        "TransactionID": 3677171,
+        "fraud_probability": 0.9973932881395778
+    },
+    {
+        "TransactionID": 3677279,
+        "fraud_probability": 0.9972091002581623
+    },
+    {
+        "TransactionID": 3677281,
+        "fraud_probability": 0.765065867967359
+    },
+    {
+        "TransactionID": 3677507,
+        "fraud_probability": 0.8634551438270137
+    },
+    {
+        "TransactionID": 3677511,
+        "fraud_probability": 0.7474684871616974
+    },
+    {
+        "TransactionID": 3677515,
+        "fraud_probability": 0.6331531537025
+    },
+    {
+        "TransactionID": 3677540,
+        "fraud_probability": 0.9345848898418522
+    },
+    {
+        "TransactionID": 3677549,
+        "fraud_probability": 0.9941502060740314
+    },
+    {
+        "TransactionID": 3677564,
+        "fraud_probability": 0.9994331530854677
+    },
+    {
+        "TransactionID": 3677565,
+        "fraud_probability": 0.9993729283898173
+    },
+    {
+        "TransactionID": 3677694,
+        "fraud_probability": 0.9985711666634983
+    },
+    {
+        "TransactionID": 3677717,
+        "fraud_probability": 0.9990832540492477
+    },
+    {
+        "TransactionID": 3677718,
+        "fraud_probability": 0.9991936155324171
+    },
+    {
+        "TransactionID": 3677727,
+        "fraud_probability": 0.99858644695775
+    },
+    {
+        "TransactionID": 3677728,
+        "fraud_probability": 0.9993531865074416
+    },
+    {
+        "TransactionID": 3677734,
+        "fraud_probability": 0.18935882304843962
+    },
+    {
+        "TransactionID": 3678120,
+        "fraud_probability": 0.998948342075423
+    },
+    {
+        "TransactionID": 3678121,
+        "fraud_probability": 0.9990380279077881
+    },
+    {
+        "TransactionID": 3678124,
+        "fraud_probability": 0.9994138345093785
+    },
+    {
+        "TransactionID": 3678127,
+        "fraud_probability": 0.9986037680168308
+    },
+    {
+        "TransactionID": 3678129,
+        "fraud_probability": 0.9989757305714264
+    },
+    {
+        "TransactionID": 3678133,
+        "fraud_probability": 0.9992207619955957
+    },
+    {
+        "TransactionID": 3678143,
+        "fraud_probability": 0.9990781164478448
+    },
+    {
+        "TransactionID": 3678148,
+        "fraud_probability": 0.9994510477934783
+    },
+    {
+        "TransactionID": 3678151,
+        "fraud_probability": 0.9994709762955662
+    },
+    {
+        "TransactionID": 3678215,
+        "fraud_probability": 0.1978099068179961
+    },
+    {
+        "TransactionID": 3678653,
+        "fraud_probability": 0.8765787998236979
+    },
+    {
+        "TransactionID": 3678657,
+        "fraud_probability": 0.9994378573569064
+    },
+    {
+        "TransactionID": 3678747,
+        "fraud_probability": 0.9992074040023787
+    },
+    {
+        "TransactionID": 3678757,
+        "fraud_probability": 0.9953617860144222
+    },
+    {
+        "TransactionID": 3679085,
+        "fraud_probability": 0.9785711873310408
+    },
+    {
+        "TransactionID": 3679087,
+        "fraud_probability": 0.9957908278678672
+    },
+    {
+        "TransactionID": 3679089,
+        "fraud_probability": 0.9988686000542006
+    },
+    {
+        "TransactionID": 3679091,
+        "fraud_probability": 0.9989876476139002
+    },
+    {
+        "TransactionID": 3679093,
+        "fraud_probability": 0.9992762231329507
+    },
+    {
+        "TransactionID": 3679100,
+        "fraud_probability": 0.9983677913634393
+    },
+    {
+        "TransactionID": 3679129,
+        "fraud_probability": 0.9984037343410098
+    },
+    {
+        "TransactionID": 3679136,
+        "fraud_probability": 0.9994251656882559
+    },
+    {
+        "TransactionID": 3679138,
+        "fraud_probability": 0.9994741888448944
+    },
+    {
+        "TransactionID": 3679144,
+        "fraud_probability": 0.9994579464851496
+    },
+    {
+        "TransactionID": 3679149,
+        "fraud_probability": 0.9994902439626339
+    },
+    {
+        "TransactionID": 3679590,
+        "fraud_probability": 0.9992887123646889
+    },
+    {
+        "TransactionID": 3679637,
+        "fraud_probability": 0.9993505052977028
+    },
+    {
+        "TransactionID": 3679641,
+        "fraud_probability": 0.9993188137212089
+    },
+    {
+        "TransactionID": 3679643,
+        "fraud_probability": 0.9994645735651986
+    },
+    {
+        "TransactionID": 3679812,
+        "fraud_probability": 0.9991766996812794
+    },
+    {
+        "TransactionID": 3679911,
+        "fraud_probability": 0.9994577010249915
+    },
+    {
+        "TransactionID": 3679922,
+        "fraud_probability": 0.9994569963253788
+    },
+    {
+        "TransactionID": 3679934,
+        "fraud_probability": 0.9994860590007904
+    },
+    {
+        "TransactionID": 3679947,
+        "fraud_probability": 0.9994592671534431
+    },
+    {
+        "TransactionID": 3679961,
+        "fraud_probability": 0.9994847177922728
+    },
+    {
+        "TransactionID": 3679969,
+        "fraud_probability": 0.9994915102147933
+    },
+    {
+        "TransactionID": 3680014,
+        "fraud_probability": 0.9994929696924059
+    },
+    {
+        "TransactionID": 3680019,
+        "fraud_probability": 0.9994947110247363
+    },
+    {
+        "TransactionID": 3680023,
+        "fraud_probability": 0.9994940845333794
+    },
+    {
+        "TransactionID": 3680035,
+        "fraud_probability": 0.9946353541166364
+    },
+    {
+        "TransactionID": 3680039,
+        "fraud_probability": 0.9994925768778474
+    },
+    {
+        "TransactionID": 3680071,
+        "fraud_probability": 0.997997240513734
+    },
+    {
+        "TransactionID": 3680091,
+        "fraud_probability": 0.9755292782998767
+    },
+    {
+        "TransactionID": 3680196,
+        "fraud_probability": 0.9968332263794771
+    },
+    {
+        "TransactionID": 3680216,
+        "fraud_probability": 0.9993942982681417
+    },
+    {
+        "TransactionID": 3680228,
+        "fraud_probability": 0.999494581573309
+    },
+    {
+        "TransactionID": 3680245,
+        "fraud_probability": 0.9902918171760121
+    },
+    {
+        "TransactionID": 3680255,
+        "fraud_probability": 0.9994882373147691
+    },
+    {
+        "TransactionID": 3680308,
+        "fraud_probability": 0.9140222881291126
+    },
+    {
+        "TransactionID": 3680355,
+        "fraud_probability": 0.9994911041438895
+    },
+    {
+        "TransactionID": 3680425,
+        "fraud_probability": 0.4271027527610052
+    },
+    {
+        "TransactionID": 3680453,
+        "fraud_probability": 0.9994609202913427
+    },
+    {
+        "TransactionID": 3680456,
+        "fraud_probability": 0.999467498344969
+    },
+    {
+        "TransactionID": 3680484,
+        "fraud_probability": 0.813278137219625
+    },
+    {
+        "TransactionID": 3680524,
+        "fraud_probability": 0.9994616599889796
+    },
+    {
+        "TransactionID": 3680585,
+        "fraud_probability": 0.9992401430893135
+    },
+    {
+        "TransactionID": 3680604,
+        "fraud_probability": 0.999470290415346
+    },
+    {
+        "TransactionID": 3680654,
+        "fraud_probability": 0.9889766319284777
+    },
+    {
+        "TransactionID": 3680717,
+        "fraud_probability": 0.9797722553211744
+    },
+    {
+        "TransactionID": 3681259,
+        "fraud_probability": 0.7974920108028175
+    },
+    {
+        "TransactionID": 3681329,
+        "fraud_probability": 0.9275683069428978
+    },
+    {
+        "TransactionID": 3681333,
+        "fraud_probability": 0.9991251479605348
+    },
+    {
+        "TransactionID": 3681341,
+        "fraud_probability": 0.9992899187201221
+    },
+    {
+        "TransactionID": 3681345,
+        "fraud_probability": 0.9986693317714351
+    },
+    {
+        "TransactionID": 3681347,
+        "fraud_probability": 0.9991417841272353
+    },
+    {
+        "TransactionID": 3681489,
+        "fraud_probability": 0.20478406333701102
+    },
+    {
+        "TransactionID": 3681515,
+        "fraud_probability": 0.9994116972394442
+    },
+    {
+        "TransactionID": 3681517,
+        "fraud_probability": 0.9992185079501845
+    },
+    {
+        "TransactionID": 3681520,
+        "fraud_probability": 0.9993379597463955
+    },
+    {
+        "TransactionID": 3681522,
+        "fraud_probability": 0.9994408713744881
+    },
+    {
+        "TransactionID": 3681535,
+        "fraud_probability": 0.8439028436256863
+    },
+    {
+        "TransactionID": 3681641,
+        "fraud_probability": 0.3319981280859554
+    },
+    {
+        "TransactionID": 3681643,
+        "fraud_probability": 0.9990856474237381
+    },
+    {
+        "TransactionID": 3681743,
+        "fraud_probability": 0.9988955934658955
+    },
+    {
+        "TransactionID": 3681744,
+        "fraud_probability": 0.9987804037023331
+    },
+    {
+        "TransactionID": 3681747,
+        "fraud_probability": 0.9990738494541443
+    },
+    {
+        "TransactionID": 3681760,
+        "fraud_probability": 0.9993435805918863
+    },
+    {
+        "TransactionID": 3681791,
+        "fraud_probability": 0.9989516180060719
+    },
+    {
+        "TransactionID": 3681844,
+        "fraud_probability": 0.38045686737270035
+    },
+    {
+        "TransactionID": 3681925,
+        "fraud_probability": 0.9967511289691614
+    },
+    {
+        "TransactionID": 3681978,
+        "fraud_probability": 0.9991610995473694
+    },
+    {
+        "TransactionID": 3682061,
+        "fraud_probability": 0.9992862191132013
+    },
+    {
+        "TransactionID": 3682063,
+        "fraud_probability": 0.9994676315581185
+    },
+    {
+        "TransactionID": 3682224,
+        "fraud_probability": 0.999185519239958
+    },
+    {
+        "TransactionID": 3682277,
+        "fraud_probability": 0.999458927215862
+    },
+    {
+        "TransactionID": 3682280,
+        "fraud_probability": 0.9994816930579534
+    },
+    {
+        "TransactionID": 3682284,
+        "fraud_probability": 0.9994910556361558
+    },
+    {
+        "TransactionID": 3682286,
+        "fraud_probability": 0.9994887126846802
+    },
+    {
+        "TransactionID": 3682315,
+        "fraud_probability": 0.9993419128875917
+    },
+    {
+        "TransactionID": 3682318,
+        "fraud_probability": 0.999350263464058
+    },
+    {
+        "TransactionID": 3682319,
+        "fraud_probability": 0.9976123431608108
+    },
+    {
+        "TransactionID": 3682321,
+        "fraud_probability": 0.999283222084519
+    },
+    {
+        "TransactionID": 3682326,
+        "fraud_probability": 0.9994508548248008
+    },
+    {
+        "TransactionID": 3682393,
+        "fraud_probability": 0.9980527588231696
+    },
+    {
+        "TransactionID": 3682396,
+        "fraud_probability": 0.9979486035134237
+    },
+    {
+        "TransactionID": 3682398,
+        "fraud_probability": 0.9994386186504006
+    },
+    {
+        "TransactionID": 3682416,
+        "fraud_probability": 0.9993380425504114
+    },
+    {
+        "TransactionID": 3682454,
+        "fraud_probability": 0.9994747633087269
+    },
+    {
+        "TransactionID": 3682488,
+        "fraud_probability": 0.4504945214789663
+    },
+    {
+        "TransactionID": 3682499,
+        "fraud_probability": 0.9987397862912314
+    },
+    {
+        "TransactionID": 3682593,
+        "fraud_probability": 0.9993867982577743
+    },
+    {
+        "TransactionID": 3682617,
+        "fraud_probability": 0.9988421683405179
+    },
+    {
+        "TransactionID": 3682663,
+        "fraud_probability": 0.9994415171510093
+    },
+    {
+        "TransactionID": 3682664,
+        "fraud_probability": 0.9994812374334481
+    },
+    {
+        "TransactionID": 3682666,
+        "fraud_probability": 0.9994773523187837
+    },
+    {
+        "TransactionID": 3682668,
+        "fraud_probability": 0.9994879720127762
+    },
+    {
+        "TransactionID": 3682669,
+        "fraud_probability": 0.9994201307926097
+    },
+    {
+        "TransactionID": 3682670,
+        "fraud_probability": 0.9994345560207945
+    },
+    {
+        "TransactionID": 3682671,
+        "fraud_probability": 0.9994574861562247
+    },
+    {
+        "TransactionID": 3682729,
+        "fraud_probability": 0.9994490116733361
+    },
+    {
+        "TransactionID": 3682803,
+        "fraud_probability": 0.9127781375054236
+    },
+    {
+        "TransactionID": 3682808,
+        "fraud_probability": 0.9908799087779888
+    },
+    {
+        "TransactionID": 3683084,
+        "fraud_probability": 0.9994790153741956
+    },
+    {
+        "TransactionID": 3683173,
+        "fraud_probability": 0.9994617593936708
+    },
+    {
+        "TransactionID": 3683318,
+        "fraud_probability": 0.9160547531304121
+    },
+    {
+        "TransactionID": 3683353,
+        "fraud_probability": 0.9100220047653234
+    },
+    {
+        "TransactionID": 3683767,
+        "fraud_probability": 0.9904604203618566
+    },
+    {
+        "TransactionID": 3683971,
+        "fraud_probability": 0.6933190924653333
+    },
+    {
+        "TransactionID": 3683980,
+        "fraud_probability": 0.9994501870884593
+    },
+    {
+        "TransactionID": 3684044,
+        "fraud_probability": 0.9992941711307423
+    },
+    {
+        "TransactionID": 3684055,
+        "fraud_probability": 0.9992866504853981
+    },
+    {
+        "TransactionID": 3684168,
+        "fraud_probability": 0.9983171144131237
+    },
+    {
+        "TransactionID": 3684170,
+        "fraud_probability": 0.9990684345637967
+    },
+    {
+        "TransactionID": 3684178,
+        "fraud_probability": 0.9994459111513633
+    },
+    {
+        "TransactionID": 3684186,
+        "fraud_probability": 0.9994789750262698
+    },
+    {
+        "TransactionID": 3684197,
+        "fraud_probability": 0.9994215435423671
+    },
+    {
+        "TransactionID": 3684204,
+        "fraud_probability": 0.9994707651075773
+    },
+    {
+        "TransactionID": 3685160,
+        "fraud_probability": 0.8737745755163181
+    },
+    {
+        "TransactionID": 3685162,
+        "fraud_probability": 0.99819120041168
+    },
+    {
+        "TransactionID": 3685976,
+        "fraud_probability": 0.9615667087093261
+    },
+    {
+        "TransactionID": 3685978,
+        "fraud_probability": 0.9989720893432832
+    },
+    {
+        "TransactionID": 3686419,
+        "fraud_probability": 0.790495207953495
+    },
+    {
+        "TransactionID": 3686625,
+        "fraud_probability": 0.9976809967326736
+    },
+    {
+        "TransactionID": 3686639,
+        "fraud_probability": 0.9994001882704359
+    },
+    {
+        "TransactionID": 3687099,
+        "fraud_probability": 0.9847659043440464
+    },
+    {
+        "TransactionID": 3687120,
+        "fraud_probability": 0.9957408581121392
+    },
+    {
+        "TransactionID": 3687125,
+        "fraud_probability": 0.9994767261370315
+    },
+    {
+        "TransactionID": 3687392,
+        "fraud_probability": 0.99944683621467
+    },
+    {
+        "TransactionID": 3687396,
+        "fraud_probability": 0.9994813085063163
+    },
+    {
+        "TransactionID": 3687397,
+        "fraud_probability": 0.9994972047527422
+    },
+    {
+        "TransactionID": 3687398,
+        "fraud_probability": 0.9995012752336485
+    },
+    {
+        "TransactionID": 3687604,
+        "fraud_probability": 0.15605849486480752
+    },
+    {
+        "TransactionID": 3687823,
+        "fraud_probability": 0.9979443835012561
+    },
+    {
+        "TransactionID": 3688607,
+        "fraud_probability": 0.9994856210014968
+    },
+    {
+        "TransactionID": 3688611,
+        "fraud_probability": 0.9994380230887652
+    },
+    {
+        "TransactionID": 3688616,
+        "fraud_probability": 0.999497123874093
+    },
+    {
+        "TransactionID": 3688622,
+        "fraud_probability": 0.9994946387768638
+    },
+    {
+        "TransactionID": 3688625,
+        "fraud_probability": 0.9994986762665569
+    },
+    {
+        "TransactionID": 3688628,
+        "fraud_probability": 0.9994986344537722
+    },
+    {
+        "TransactionID": 3688630,
+        "fraud_probability": 0.9994989599041143
+    },
+    {
+        "TransactionID": 3688632,
+        "fraud_probability": 0.9994981473768755
+    },
+    {
+        "TransactionID": 3688635,
+        "fraud_probability": 0.9994919704405146
+    },
+    {
+        "TransactionID": 3688663,
+        "fraud_probability": 0.9257824003531814
+    },
+    {
+        "TransactionID": 3688684,
+        "fraud_probability": 0.9989693376654775
+    },
+    {
+        "TransactionID": 3688690,
+        "fraud_probability": 0.3768746887470825
+    },
+    {
+        "TransactionID": 3688773,
+        "fraud_probability": 0.9993304907608479
+    },
+    {
+        "TransactionID": 3688802,
+        "fraud_probability": 0.9994966323317424
+    },
+    {
+        "TransactionID": 3688805,
+        "fraud_probability": 0.999491192052379
+    },
+    {
+        "TransactionID": 3688808,
+        "fraud_probability": 0.9994991464202916
+    },
+    {
+        "TransactionID": 3688816,
+        "fraud_probability": 0.9994988494538244
+    },
+    {
+        "TransactionID": 3688820,
+        "fraud_probability": 0.9994986583472187
+    },
+    {
+        "TransactionID": 3688827,
+        "fraud_probability": 0.9994796403678566
+    },
+    {
+        "TransactionID": 3688833,
+        "fraud_probability": 0.9994984283255463
+    },
+    {
+        "TransactionID": 3688838,
+        "fraud_probability": 0.9994804193955253
+    },
+    {
+        "TransactionID": 3688847,
+        "fraud_probability": 0.9994982938484622
+    },
+    {
+        "TransactionID": 3688854,
+        "fraud_probability": 0.9994987957124521
+    },
+    {
+        "TransactionID": 3688857,
+        "fraud_probability": 0.9994932656132146
+    },
+    {
+        "TransactionID": 3688866,
+        "fraud_probability": 0.9994936428127266
+    },
+    {
+        "TransactionID": 3688871,
+        "fraud_probability": 0.9994588111693338
+    },
+    {
+        "TransactionID": 3688875,
+        "fraud_probability": 0.9994916555942321
+    },
+    {
+        "TransactionID": 3688882,
+        "fraud_probability": 0.9994952435340725
+    },
+    {
+        "TransactionID": 3688887,
+        "fraud_probability": 0.999498371550728
+    },
+    {
+        "TransactionID": 3688890,
+        "fraud_probability": 0.9994957214116496
+    },
+    {
+        "TransactionID": 3688892,
+        "fraud_probability": 0.9994900981796939
+    },
+    {
+        "TransactionID": 3688895,
+        "fraud_probability": 0.9994952014351263
+    },
+    {
+        "TransactionID": 3688898,
+        "fraud_probability": 0.9994676315581185
+    },
+    {
+        "TransactionID": 3688931,
+        "fraud_probability": 0.999492241233919
+    },
+    {
+        "TransactionID": 3688934,
+        "fraud_probability": 0.9994581127535838
+    },
+    {
+        "TransactionID": 3688937,
+        "fraud_probability": 0.9994972975973802
+    },
+    {
+        "TransactionID": 3688941,
+        "fraud_probability": 0.9994967462684289
+    },
+    {
+        "TransactionID": 3688946,
+        "fraud_probability": 0.9994700726401115
+    },
+    {
+        "TransactionID": 3688950,
+        "fraud_probability": 0.9994971897761955
+    },
+    {
+        "TransactionID": 3688953,
+        "fraud_probability": 0.9994952645822298
+    },
+    {
+        "TransactionID": 3688957,
+        "fraud_probability": 0.9994849786434525
+    },
+    {
+        "TransactionID": 3688959,
+        "fraud_probability": 0.9995003087146527
+    },
+    {
+        "TransactionID": 3688963,
+        "fraud_probability": 0.9994791844911296
+    },
+    {
+        "TransactionID": 3688968,
+        "fraud_probability": 0.9994993641833237
+    },
+    {
+        "TransactionID": 3688975,
+        "fraud_probability": 0.9994992955832661
+    },
+    {
+        "TransactionID": 3688980,
+        "fraud_probability": 0.9994965093711383
+    },
+    {
+        "TransactionID": 3688982,
+        "fraud_probability": 0.9994419478085494
+    },
+    {
+        "TransactionID": 3689158,
+        "fraud_probability": 0.9273941231691841
+    },
+    {
+        "TransactionID": 3689287,
+        "fraud_probability": 0.998658404406274
+    },
+    {
+        "TransactionID": 3689300,
+        "fraud_probability": 0.9989066499642101
+    },
+    {
+        "TransactionID": 3689315,
+        "fraud_probability": 0.9994619148771124
+    },
+    {
+        "TransactionID": 3689600,
+        "fraud_probability": 0.9992766820822349
+    },
+    {
+        "TransactionID": 3689609,
+        "fraud_probability": 0.9994993850597373
+    },
+    {
+        "TransactionID": 3689612,
+        "fraud_probability": 0.999495472009986
+    },
+    {
+        "TransactionID": 3689614,
+        "fraud_probability": 0.9994997010819613
+    },
+    {
+        "TransactionID": 3689749,
+        "fraud_probability": 0.9994489493079418
+    },
+    {
+        "TransactionID": 3689751,
+        "fraud_probability": 0.9994760851610769
+    },
+    {
+        "TransactionID": 3689753,
+        "fraud_probability": 0.9994877676060555
+    },
+    {
+        "TransactionID": 3689755,
+        "fraud_probability": 0.999491879639479
+    },
+    {
+        "TransactionID": 3689823,
+        "fraud_probability": 0.9961410133065604
+    },
+    {
+        "TransactionID": 3689825,
+        "fraud_probability": 0.9969476177990493
+    },
+    {
+        "TransactionID": 3689829,
+        "fraud_probability": 0.9936527233707743
+    },
+    {
+        "TransactionID": 3689832,
+        "fraud_probability": 0.9634829416858435
+    },
+    {
+        "TransactionID": 3689834,
+        "fraud_probability": 0.9981394669361825
+    },
+    {
+        "TransactionID": 3689835,
+        "fraud_probability": 0.999371026192311
+    },
+    {
+        "TransactionID": 3689837,
+        "fraud_probability": 0.9994798929439601
+    },
+    {
+        "TransactionID": 3689858,
+        "fraud_probability": 0.9994177130486249
+    },
+    {
+        "TransactionID": 3689888,
+        "fraud_probability": 0.9178908793697963
+    },
+    {
+        "TransactionID": 3689892,
+        "fraud_probability": 0.9994960472508989
+    },
+    {
+        "TransactionID": 3689894,
+        "fraud_probability": 0.9994999305202374
+    },
+    {
+        "TransactionID": 3689895,
+        "fraud_probability": 0.9995002253577806
+    },
+    {
+        "TransactionID": 3690160,
+        "fraud_probability": 0.9993568285422499
+    },
+    {
+        "TransactionID": 3690172,
+        "fraud_probability": 0.15802389657513724
+    },
+    {
+        "TransactionID": 3690343,
+        "fraud_probability": 0.6061987170069062
+    },
+    {
+        "TransactionID": 3690355,
+        "fraud_probability": 0.9833608893488928
+    },
+    {
+        "TransactionID": 3690689,
+        "fraud_probability": 0.9896358603431508
+    },
+    {
+        "TransactionID": 3690835,
+        "fraud_probability": 0.9888715914173422
+    },
+    {
+        "TransactionID": 3690978,
+        "fraud_probability": 0.9835072196994581
+    },
+    {
+        "TransactionID": 3690983,
+        "fraud_probability": 0.9980542409339731
+    },
+    {
+        "TransactionID": 3690989,
+        "fraud_probability": 0.9994651202941839
+    },
+    {
+        "TransactionID": 3691000,
+        "fraud_probability": 0.9994655741489231
+    },
+    {
+        "TransactionID": 3691009,
+        "fraud_probability": 0.1614920965590611
+    },
+    {
+        "TransactionID": 3691017,
+        "fraud_probability": 0.9994063022467377
+    },
+    {
+        "TransactionID": 3691026,
+        "fraud_probability": 0.9993956209332204
+    },
+    {
+        "TransactionID": 3691031,
+        "fraud_probability": 0.9993833809215901
+    },
+    {
+        "TransactionID": 3691058,
+        "fraud_probability": 0.9994875035872022
+    },
+    {
+        "TransactionID": 3691062,
+        "fraud_probability": 0.9991058365384928
+    },
+    {
+        "TransactionID": 3691342,
+        "fraud_probability": 0.9757405264625738
+    },
+    {
+        "TransactionID": 3691345,
+        "fraud_probability": 0.9991601523019837
+    },
+    {
+        "TransactionID": 3691351,
+        "fraud_probability": 0.9993133675283237
+    },
+    {
+        "TransactionID": 3691356,
+        "fraud_probability": 0.9993638428711127
+    },
+    {
+        "TransactionID": 3691361,
+        "fraud_probability": 0.9994211867989204
+    },
+    {
+        "TransactionID": 3691364,
+        "fraud_probability": 0.999455689568929
+    },
+    {
+        "TransactionID": 3691440,
+        "fraud_probability": 0.9994590996279552
+    },
+    {
+        "TransactionID": 3691459,
+        "fraud_probability": 0.9994673619255626
+    },
+    {
+        "TransactionID": 3691462,
+        "fraud_probability": 0.999456944568269
+    },
+    {
+        "TransactionID": 3691463,
+        "fraud_probability": 0.9994281404218526
+    },
+    {
+        "TransactionID": 3691673,
+        "fraud_probability": 0.9994293654346567
+    },
+    {
+        "TransactionID": 3691733,
+        "fraud_probability": 0.7391141325024624
+    },
+    {
+        "TransactionID": 3691793,
+        "fraud_probability": 0.9994703976919821
+    },
+    {
+        "TransactionID": 3691801,
+        "fraud_probability": 0.999483677680124
+    },
+    {
+        "TransactionID": 3691804,
+        "fraud_probability": 0.9994662661326131
+    },
+    {
+        "TransactionID": 3691840,
+        "fraud_probability": 0.9976432474966218
+    },
+    {
+        "TransactionID": 3692117,
+        "fraud_probability": 0.9989763829162183
+    },
+    {
+        "TransactionID": 3692280,
+        "fraud_probability": 0.9994775530989356
+    },
+    {
+        "TransactionID": 3692283,
+        "fraud_probability": 0.9994896757814978
+    },
+    {
+        "TransactionID": 3692287,
+        "fraud_probability": 0.9994954930486208
+    },
+    {
+        "TransactionID": 3692344,
+        "fraud_probability": 0.8729773439554479
+    },
+    {
+        "TransactionID": 3692361,
+        "fraud_probability": 0.9961163048101238
+    },
+    {
+        "TransactionID": 3692389,
+        "fraud_probability": 0.9626219374762095
+    },
+    {
+        "TransactionID": 3692393,
+        "fraud_probability": 0.9962566737187921
+    },
+    {
+        "TransactionID": 3692397,
+        "fraud_probability": 0.9993794919489442
+    },
+    {
+        "TransactionID": 3692402,
+        "fraud_probability": 0.9991435072805617
+    },
+    {
+        "TransactionID": 3692473,
+        "fraud_probability": 0.9994245455792822
+    },
+    {
+        "TransactionID": 3692493,
+        "fraud_probability": 0.9993956569327146
+    },
+    {
+        "TransactionID": 3692495,
+        "fraud_probability": 0.9988509475550863
+    },
+    {
+        "TransactionID": 3692497,
+        "fraud_probability": 0.9994543634179806
+    },
+    {
+        "TransactionID": 3692498,
+        "fraud_probability": 0.9994918554231301
+    },
+    {
+        "TransactionID": 3692499,
+        "fraud_probability": 0.9994948825720613
+    },
+    {
+        "TransactionID": 3693260,
+        "fraud_probability": 0.9950810785778865
+    },
+    {
+        "TransactionID": 3693306,
+        "fraud_probability": 0.9994812961465165
+    },
+    {
+        "TransactionID": 3693323,
+        "fraud_probability": 0.9992901301505176
+    },
+    {
+        "TransactionID": 3693345,
+        "fraud_probability": 0.9995023703395216
+    },
+    {
+        "TransactionID": 3693356,
+        "fraud_probability": 0.9994847392791233
+    },
+    {
+        "TransactionID": 3693513,
+        "fraud_probability": 0.9800192968950071
+    },
+    {
+        "TransactionID": 3693579,
+        "fraud_probability": 0.9954361414976531
+    },
+    {
+        "TransactionID": 3693582,
+        "fraud_probability": 0.9933386558134683
+    },
+    {
+        "TransactionID": 3693915,
+        "fraud_probability": 0.9986928360418851
+    },
+    {
+        "TransactionID": 3693924,
+        "fraud_probability": 0.9989240435750694
+    },
+    {
+        "TransactionID": 3693927,
+        "fraud_probability": 0.9991622827266975
+    },
+    {
+        "TransactionID": 3693966,
+        "fraud_probability": 0.9972069512929562
+    },
+    {
+        "TransactionID": 3693972,
+        "fraud_probability": 0.9975304259452324
+    },
+    {
+        "TransactionID": 3693983,
+        "fraud_probability": 0.9991633919999185
+    },
+    {
+        "TransactionID": 3693988,
+        "fraud_probability": 0.9993668934434005
+    },
+    {
+        "TransactionID": 3693990,
+        "fraud_probability": 0.9992878688182459
+    },
+    {
+        "TransactionID": 3693998,
+        "fraud_probability": 0.9994537406227263
+    },
+    {
+        "TransactionID": 3694001,
+        "fraud_probability": 0.9993948572394269
+    },
+    {
+        "TransactionID": 3694009,
+        "fraud_probability": 0.9990891742609564
+    },
+    {
+        "TransactionID": 3694013,
+        "fraud_probability": 0.9993008009432265
+    },
+    {
+        "TransactionID": 3694019,
+        "fraud_probability": 0.9993373206245394
+    },
+    {
+        "TransactionID": 3694065,
+        "fraud_probability": 0.9994006382828808
+    },
+    {
+        "TransactionID": 3694156,
+        "fraud_probability": 0.999450809025672
+    },
+    {
+        "TransactionID": 3694163,
+        "fraud_probability": 0.9993852659175064
+    },
+    {
+        "TransactionID": 3694167,
+        "fraud_probability": 0.9994814722458756
+    },
+    {
+        "TransactionID": 3694170,
+        "fraud_probability": 0.9994861416581119
+    },
+    {
+        "TransactionID": 3694175,
+        "fraud_probability": 0.999488700501223
+    },
+    {
+        "TransactionID": 3694177,
+        "fraud_probability": 0.9994800230580307
+    },
+    {
+        "TransactionID": 3694182,
+        "fraud_probability": 0.999464764904138
+    },
+    {
+        "TransactionID": 3694186,
+        "fraud_probability": 0.9994840005389203
+    },
+    {
+        "TransactionID": 3694188,
+        "fraud_probability": 0.9994898520764857
+    },
+    {
+        "TransactionID": 3694228,
+        "fraud_probability": 0.960640514084281
+    },
+    {
+        "TransactionID": 3694386,
+        "fraud_probability": 0.9994821189749922
+    },
+    {
+        "TransactionID": 3694390,
+        "fraud_probability": 0.9994623778555285
+    },
+    {
+        "TransactionID": 3694561,
+        "fraud_probability": 0.9983112614026675
+    },
+    {
+        "TransactionID": 3694562,
+        "fraud_probability": 0.9992266243999914
+    },
+    {
+        "TransactionID": 3694564,
+        "fraud_probability": 0.9994493479965667
+    },
+    {
+        "TransactionID": 3694566,
+        "fraud_probability": 0.9994156003557491
+    },
+    {
+        "TransactionID": 3694846,
+        "fraud_probability": 0.9820570572020528
+    },
+    {
+        "TransactionID": 3694849,
+        "fraud_probability": 0.9990013515992552
+    },
+    {
+        "TransactionID": 3694860,
+        "fraud_probability": 0.9984413377054248
+    },
+    {
+        "TransactionID": 3694898,
+        "fraud_probability": 0.9894855372733207
+    },
+    {
+        "TransactionID": 3694899,
+        "fraud_probability": 0.9925754972054598
+    },
+    {
+        "TransactionID": 3694901,
+        "fraud_probability": 0.9983072675360823
+    },
+    {
+        "TransactionID": 3694902,
+        "fraud_probability": 0.999472658057957
+    },
+    {
+        "TransactionID": 3694937,
+        "fraud_probability": 0.9988497703461002
+    },
+    {
+        "TransactionID": 3694967,
+        "fraud_probability": 0.999460325873007
+    },
+    {
+        "TransactionID": 3694969,
+        "fraud_probability": 0.999277941081132
+    },
+    {
+        "TransactionID": 3694970,
+        "fraud_probability": 0.9993882994540353
+    },
+    {
+        "TransactionID": 3694977,
+        "fraud_probability": 0.9992300367553236
+    },
+    {
+        "TransactionID": 3694978,
+        "fraud_probability": 0.9994236502116932
+    },
+    {
+        "TransactionID": 3694979,
+        "fraud_probability": 0.9994602840784444
+    },
+    {
+        "TransactionID": 3694980,
+        "fraud_probability": 0.9994336829669075
+    },
+    {
+        "TransactionID": 3694981,
+        "fraud_probability": 0.99947151649012
+    },
+    {
+        "TransactionID": 3695322,
+        "fraud_probability": 0.9991920460393029
+    },
+    {
+        "TransactionID": 3695329,
+        "fraud_probability": 0.9770987381219759
+    },
+    {
+        "TransactionID": 3695373,
+        "fraud_probability": 0.9993933034677803
+    },
+    {
+        "TransactionID": 3695379,
+        "fraud_probability": 0.9994838714196226
+    },
+    {
+        "TransactionID": 3696156,
+        "fraud_probability": 0.962990329329231
+    },
+    {
+        "TransactionID": 3696458,
+        "fraud_probability": 0.9692676321116019
+    },
+    {
+        "TransactionID": 3696479,
+        "fraud_probability": 0.9817222007290648
+    },
+    {
+        "TransactionID": 3696778,
+        "fraud_probability": 0.8826054584947323
+    },
+    {
+        "TransactionID": 3696810,
+        "fraud_probability": 0.998647785892057
+    },
+    {
+        "TransactionID": 3696827,
+        "fraud_probability": 0.9994613905421019
+    },
+    {
+        "TransactionID": 3696851,
+        "fraud_probability": 0.286029059314383
+    },
+    {
+        "TransactionID": 3696874,
+        "fraud_probability": 0.32005244566336843
+    },
+    {
+        "TransactionID": 3697066,
+        "fraud_probability": 0.9911843839653393
+    },
+    {
+        "TransactionID": 3697069,
+        "fraud_probability": 0.9991906759527942
+    },
+    {
+        "TransactionID": 3697102,
+        "fraud_probability": 0.9994133227626277
+    },
+    {
+        "TransactionID": 3697259,
+        "fraud_probability": 0.9814371087243716
+    },
+    {
+        "TransactionID": 3697323,
+        "fraud_probability": 0.9993458658172697
+    },
+    {
+        "TransactionID": 3697370,
+        "fraud_probability": 0.9994379762200616
+    },
+    {
+        "TransactionID": 3697375,
+        "fraud_probability": 0.9994889502041078
+    },
+    {
+        "TransactionID": 3697376,
+        "fraud_probability": 0.9994266823049873
+    },
+    {
+        "TransactionID": 3697381,
+        "fraud_probability": 0.9970399136502291
+    },
+    {
+        "TransactionID": 3697431,
+        "fraud_probability": 0.9989347235931517
+    },
+    {
+        "TransactionID": 3697436,
+        "fraud_probability": 0.9986821877255853
+    },
+    {
+        "TransactionID": 3697438,
+        "fraud_probability": 0.9994821683340421
+    },
+    {
+        "TransactionID": 3697444,
+        "fraud_probability": 0.9976550454699097
+    },
+    {
+        "TransactionID": 3697447,
+        "fraud_probability": 0.9925104070686115
+    },
+    {
+        "TransactionID": 3697451,
+        "fraud_probability": 0.9994007828580668
+    },
+    {
+        "TransactionID": 3697454,
+        "fraud_probability": 0.9994774114713361
+    },
+    {
+        "TransactionID": 3697455,
+        "fraud_probability": 0.9994300244926091
+    },
+    {
+        "TransactionID": 3697463,
+        "fraud_probability": 0.9993876669557228
+    },
+    {
+        "TransactionID": 3697577,
+        "fraud_probability": 0.9994846717460062
+    },
+    {
+        "TransactionID": 3697643,
+        "fraud_probability": 0.9994926282631875
+    },
+    {
+        "TransactionID": 3697646,
+        "fraud_probability": 0.9994952194779614
+    },
+    {
+        "TransactionID": 3697663,
+        "fraud_probability": 0.999424140949383
+    },
+    {
+        "TransactionID": 3697766,
+        "fraud_probability": 0.9994308302933645
+    },
+    {
+        "TransactionID": 3697769,
+        "fraud_probability": 0.9994441904916601
+    },
+    {
+        "TransactionID": 3697772,
+        "fraud_probability": 0.999462480329761
+    },
+    {
+        "TransactionID": 3697776,
+        "fraud_probability": 0.9994648477964536
+    },
+    {
+        "TransactionID": 3697865,
+        "fraud_probability": 0.9994837053616448
+    },
+    {
+        "TransactionID": 3697872,
+        "fraud_probability": 0.9989036449744402
+    },
+    {
+        "TransactionID": 3697879,
+        "fraud_probability": 0.908730938771815
+    },
+    {
+        "TransactionID": 3697914,
+        "fraud_probability": 0.9994714094399887
+    },
+    {
+        "TransactionID": 3697916,
+        "fraud_probability": 0.9994954088888206
+    },
+    {
+        "TransactionID": 3697918,
+        "fraud_probability": 0.9995028503581875
+    },
+    {
+        "TransactionID": 3697920,
+        "fraud_probability": 0.9995028770123172
+    },
+    {
+        "TransactionID": 3697924,
+        "fraud_probability": 0.99950173553056
+    },
+    {
+        "TransactionID": 3697927,
+        "fraud_probability": 0.9995029421608438
+    },
+    {
+        "TransactionID": 3697928,
+        "fraud_probability": 0.9995021449859663
+    },
+    {
+        "TransactionID": 3697930,
+        "fraud_probability": 0.9995031582743698
+    },
+    {
+        "TransactionID": 3697931,
+        "fraud_probability": 0.9994842924753863
+    },
+    {
+        "TransactionID": 3697963,
+        "fraud_probability": 0.9991266184790066
+    },
+    {
+        "TransactionID": 3697979,
+        "fraud_probability": 0.4526554976190883
+    },
+    {
+        "TransactionID": 3697980,
+        "fraud_probability": 0.9994265713021373
+    },
+    {
+        "TransactionID": 3697999,
+        "fraud_probability": 0.9994920929961878
+    },
+    {
+        "TransactionID": 3698013,
+        "fraud_probability": 0.9991450589812276
+    },
+    {
+        "TransactionID": 3698014,
+        "fraud_probability": 0.999371490582667
+    },
+    {
+        "TransactionID": 3698228,
+        "fraud_probability": 0.9988816755794905
+    },
+    {
+        "TransactionID": 3698238,
+        "fraud_probability": 0.9994940543940504
+    },
+    {
+        "TransactionID": 3698327,
+        "fraud_probability": 0.9994998322024281
+    },
+    {
+        "TransactionID": 3698333,
+        "fraud_probability": 0.9995021894717194
+    },
+    {
+        "TransactionID": 3698335,
+        "fraud_probability": 0.999503057630442
+    },
+    {
+        "TransactionID": 3698354,
+        "fraud_probability": 0.999501444553514
+    },
+    {
+        "TransactionID": 3698363,
+        "fraud_probability": 0.9995022458146366
+    },
+    {
+        "TransactionID": 3698367,
+        "fraud_probability": 0.9995028710893008
+    },
+    {
+        "TransactionID": 3698409,
+        "fraud_probability": 0.5721412762032593
+    },
+    {
+        "TransactionID": 3698413,
+        "fraud_probability": 0.9995024088766276
+    },
+    {
+        "TransactionID": 3698415,
+        "fraud_probability": 0.9995028947809438
+    },
+    {
+        "TransactionID": 3698416,
+        "fraud_probability": 0.9995028000076006
+    },
+    {
+        "TransactionID": 3698421,
+        "fraud_probability": 0.9995030250648086
+    },
+    {
+        "TransactionID": 3698658,
+        "fraud_probability": 0.9940905643238463
+    },
+    {
+        "TransactionID": 3698697,
+        "fraud_probability": 0.3604895423863189
+    },
+    {
+        "TransactionID": 3698699,
+        "fraud_probability": 0.821202651196899
+    },
+    {
+        "TransactionID": 3698703,
+        "fraud_probability": 0.4693943886727856
+    },
+    {
+        "TransactionID": 3698705,
+        "fraud_probability": 0.9982026731998372
+    },
+    {
+        "TransactionID": 3698747,
+        "fraud_probability": 0.9994988613955694
+    },
+    {
+        "TransactionID": 3698819,
+        "fraud_probability": 0.32314859280964703
+    },
+    {
+        "TransactionID": 3698826,
+        "fraud_probability": 0.9743763022758544
+    },
+    {
+        "TransactionID": 3698832,
+        "fraud_probability": 0.9988773361572055
+    },
+    {
+        "TransactionID": 3698836,
+        "fraud_probability": 0.9994754590243186
+    },
+    {
+        "TransactionID": 3698839,
+        "fraud_probability": 0.9994862732701204
+    },
+    {
+        "TransactionID": 3698841,
+        "fraud_probability": 0.9993548391109325
+    },
+    {
+        "TransactionID": 3698846,
+        "fraud_probability": 0.9994977226667503
+    },
+    {
+        "TransactionID": 3698848,
+        "fraud_probability": 0.9994921111500705
+    },
+    {
+        "TransactionID": 3698850,
+        "fraud_probability": 0.9994576396425958
+    },
+    {
+        "TransactionID": 3698859,
+        "fraud_probability": 0.9994395041327383
+    },
+    {
+        "TransactionID": 3698860,
+        "fraud_probability": 0.9994618764111625
+    },
+    {
+        "TransactionID": 3698867,
+        "fraud_probability": 0.9994953788283485
+    },
+    {
+        "TransactionID": 3698888,
+        "fraud_probability": 0.9993047211776621
+    },
+    {
+        "TransactionID": 3698905,
+        "fraud_probability": 0.9994631475356196
+    },
+    {
+        "TransactionID": 3699170,
+        "fraud_probability": 0.9896624801653041
+    },
+    {
+        "TransactionID": 3699389,
+        "fraud_probability": 0.9981138177837513
+    },
+    {
+        "TransactionID": 3699392,
+        "fraud_probability": 0.9993954715124171
+    },
+    {
+        "TransactionID": 3699474,
+        "fraud_probability": 0.997134267763473
+    },
+    {
+        "TransactionID": 3699481,
+        "fraud_probability": 0.9942135542414002
+    },
+    {
+        "TransactionID": 3699671,
+        "fraud_probability": 0.8825832246210423
+    },
+    {
+        "TransactionID": 3699733,
+        "fraud_probability": 0.9553811061980184
+    },
+    {
+        "TransactionID": 3699735,
+        "fraud_probability": 0.9039035867266337
+    },
+    {
+        "TransactionID": 3699865,
+        "fraud_probability": 0.9970851426964822
+    },
+    {
+        "TransactionID": 3699868,
+        "fraud_probability": 0.20713314866805063
+    },
+    {
+        "TransactionID": 3699897,
+        "fraud_probability": 0.9994968212127174
+    },
+    {
+        "TransactionID": 3699899,
+        "fraud_probability": 0.9591198262200283
+    },
+    {
+        "TransactionID": 3699900,
+        "fraud_probability": 0.2193467174270957
+    },
+    {
+        "TransactionID": 3699910,
+        "fraud_probability": 0.9994934678270632
+    },
+    {
+        "TransactionID": 3699912,
+        "fraud_probability": 0.9994933954015243
+    },
+    {
+        "TransactionID": 3699917,
+        "fraud_probability": 0.9994560671828423
+    },
+    {
+        "TransactionID": 3699924,
+        "fraud_probability": 0.9994973305381326
+    },
+    {
+        "TransactionID": 3699943,
+        "fraud_probability": 0.9979561668192583
+    },
+    {
+        "TransactionID": 3699952,
+        "fraud_probability": 0.9971953400065868
+    },
+    {
+        "TransactionID": 3700101,
+        "fraud_probability": 0.37456729797992644
+    },
+    {
+        "TransactionID": 3700108,
+        "fraud_probability": 0.9892366130921376
+    },
+    {
+        "TransactionID": 3700133,
+        "fraud_probability": 0.9994274365550548
+    },
+    {
+        "TransactionID": 3700142,
+        "fraud_probability": 0.9994960742695859
+    },
+    {
+        "TransactionID": 3700152,
+        "fraud_probability": 0.999488118403284
+    },
+    {
+        "TransactionID": 3700177,
+        "fraud_probability": 0.9992808466784509
+    },
+    {
+        "TransactionID": 3700232,
+        "fraud_probability": 0.9994548036615725
+    },
+    {
+        "TransactionID": 3700234,
+        "fraud_probability": 0.9994799425150617
+    },
+    {
+        "TransactionID": 3700237,
+        "fraud_probability": 0.9994911587095665
+    },
+    {
+        "TransactionID": 3700267,
+        "fraud_probability": 0.35597592685727275
+    },
+    {
+        "TransactionID": 3700270,
+        "fraud_probability": 0.9993642898427725
+    },
+    {
+        "TransactionID": 3700294,
+        "fraud_probability": 0.9994963893806419
+    },
+    {
+        "TransactionID": 3700296,
+        "fraud_probability": 0.9994938403532033
+    },
+    {
+        "TransactionID": 3700297,
+        "fraud_probability": 0.9994514809083739
+    },
+    {
+        "TransactionID": 3700311,
+        "fraud_probability": 0.9928322841757816
+    },
+    {
+        "TransactionID": 3700324,
+        "fraud_probability": 0.9982686824001324
+    },
+    {
+        "TransactionID": 3700376,
+        "fraud_probability": 0.9994453778379518
+    },
+    {
+        "TransactionID": 3700424,
+        "fraud_probability": 0.9965945628558558
+    },
+    {
+        "TransactionID": 3700576,
+        "fraud_probability": 0.9992386232757589
+    },
+    {
+        "TransactionID": 3700584,
+        "fraud_probability": 0.999301437816816
+    },
+    {
+        "TransactionID": 3700633,
+        "fraud_probability": 0.9903284499749582
+    },
+    {
+        "TransactionID": 3700714,
+        "fraud_probability": 0.5087589573424857
+    },
+    {
+        "TransactionID": 3700717,
+        "fraud_probability": 0.9990728010210509
+    },
+    {
+        "TransactionID": 3700861,
+        "fraud_probability": 0.9908817668302745
+    },
+    {
+        "TransactionID": 3700877,
+        "fraud_probability": 0.42401823416279083
+    },
+    {
+        "TransactionID": 3700882,
+        "fraud_probability": 0.9985634540875903
+    },
+    {
+        "TransactionID": 3700973,
+        "fraud_probability": 0.8224249900683411
+    },
+    {
+        "TransactionID": 3701397,
+        "fraud_probability": 0.9994708313098921
+    },
+    {
+        "TransactionID": 3701399,
+        "fraud_probability": 0.9994824582235174
+    },
+    {
+        "TransactionID": 3701539,
+        "fraud_probability": 0.9989904316110891
+    },
+    {
+        "TransactionID": 3701639,
+        "fraud_probability": 0.9437237011794456
+    },
+    {
+        "TransactionID": 3701778,
+        "fraud_probability": 0.268198941861693
+    },
+    {
+        "TransactionID": 3701832,
+        "fraud_probability": 0.9993390038958011
+    },
+    {
+        "TransactionID": 3701992,
+        "fraud_probability": 0.999484938757117
+    },
+    {
+        "TransactionID": 3701994,
+        "fraud_probability": 0.9994858997714668
+    },
+    {
+        "TransactionID": 3701999,
+        "fraud_probability": 0.9994885756040551
+    },
+    {
+        "TransactionID": 3702005,
+        "fraud_probability": 0.999493217311407
+    },
+    {
+        "TransactionID": 3702009,
+        "fraud_probability": 0.9994688590378241
+    },
+    {
+        "TransactionID": 3702013,
+        "fraud_probability": 0.9994790355469876
+    },
+    {
+        "TransactionID": 3702015,
+        "fraud_probability": 0.9993828867159409
+    },
+    {
+        "TransactionID": 3702016,
+        "fraud_probability": 0.999339875384321
+    },
+    {
+        "TransactionID": 3702017,
+        "fraud_probability": 0.9994602229882646
+    },
+    {
+        "TransactionID": 3702025,
+        "fraud_probability": 0.9994674412434209
+    },
+    {
+        "TransactionID": 3702027,
+        "fraud_probability": 0.999458361254031
+    },
+    {
+        "TransactionID": 3702047,
+        "fraud_probability": 0.9993646532491911
+    },
+    {
+        "TransactionID": 3702054,
+        "fraud_probability": 0.9987378118039583
+    },
+    {
+        "TransactionID": 3702057,
+        "fraud_probability": 0.9994401248072335
+    },
+    {
+        "TransactionID": 3702060,
+        "fraud_probability": 0.9994946056598051
+    },
+    {
+        "TransactionID": 3702061,
+        "fraud_probability": 0.9994944791929001
+    },
+    {
+        "TransactionID": 3702062,
+        "fraud_probability": 0.9994948915992552
+    },
+    {
+        "TransactionID": 3702065,
+        "fraud_probability": 0.9994971508350873
+    },
+    {
+        "TransactionID": 3702069,
+        "fraud_probability": 0.9994977286510767
+    },
+    {
+        "TransactionID": 3702072,
+        "fraud_probability": 0.999489614976005
+    },
+    {
+        "TransactionID": 3702073,
+        "fraud_probability": 0.99948339308962
+    },
+    {
+        "TransactionID": 3702074,
+        "fraud_probability": 0.9994920778674569
+    },
+    {
+        "TransactionID": 3702076,
+        "fraud_probability": 0.9994767323713877
+    },
+    {
+        "TransactionID": 3702079,
+        "fraud_probability": 0.9994652700291833
+    },
+    {
+        "TransactionID": 3702080,
+        "fraud_probability": 0.9994792961713047
+    },
+    {
+        "TransactionID": 3702084,
+        "fraud_probability": 0.9994936307466897
+    },
+    {
+        "TransactionID": 3702087,
+        "fraud_probability": 0.9994971568262234
+    },
+    {
+        "TransactionID": 3702090,
+        "fraud_probability": 0.9994870393170199
+    },
+    {
+        "TransactionID": 3702093,
+        "fraud_probability": 0.9994743078589661
+    },
+    {
+        "TransactionID": 3702098,
+        "fraud_probability": 0.9994870454285665
+    },
+    {
+        "TransactionID": 3702246,
+        "fraud_probability": 0.9994931327721699
+    },
+    {
+        "TransactionID": 3702368,
+        "fraud_probability": 0.999300192666638
+    },
+    {
+        "TransactionID": 3702440,
+        "fraud_probability": 0.3425507521622604
+    },
+    {
+        "TransactionID": 3702441,
+        "fraud_probability": 0.9921685646695099
+    },
+    {
+        "TransactionID": 3702457,
+        "fraud_probability": 0.9993070095245498
+    },
+    {
+        "TransactionID": 3702490,
+        "fraud_probability": 0.9973438589225032
+    },
+    {
+        "TransactionID": 3702526,
+        "fraud_probability": 0.997848718487728
+    },
+    {
+        "TransactionID": 3702527,
+        "fraud_probability": 0.9978771317684618
+    },
+    {
+        "TransactionID": 3702529,
+        "fraud_probability": 0.99935551509337
+    },
+    {
+        "TransactionID": 3702530,
+        "fraud_probability": 0.9994522514974759
+    },
+    {
+        "TransactionID": 3702532,
+        "fraud_probability": 0.9994635934773043
+    },
+    {
+        "TransactionID": 3702533,
+        "fraud_probability": 0.9994604817703312
+    },
+    {
+        "TransactionID": 3702536,
+        "fraud_probability": 0.9994617882496611
+    },
+    {
+        "TransactionID": 3702537,
+        "fraud_probability": 0.9994793457992547
+    },
+    {
+        "TransactionID": 3702539,
+        "fraud_probability": 0.9994645767547411
+    },
+    {
+        "TransactionID": 3702541,
+        "fraud_probability": 0.9994730600062519
+    },
+    {
+        "TransactionID": 3702543,
+        "fraud_probability": 0.9993553288848014
+    },
+    {
+        "TransactionID": 3702545,
+        "fraud_probability": 0.9994315045928475
+    },
+    {
+        "TransactionID": 3702547,
+        "fraud_probability": 0.9994174649953054
+    },
+    {
+        "TransactionID": 3702553,
+        "fraud_probability": 0.9994324232667003
+    },
+    {
+        "TransactionID": 3702747,
+        "fraud_probability": 0.9415775206406671
+    },
+    {
+        "TransactionID": 3703013,
+        "fraud_probability": 0.9901057356356618
+    },
+    {
+        "TransactionID": 3703807,
+        "fraud_probability": 0.9981583422277532
+    },
+    {
+        "TransactionID": 3703809,
+        "fraud_probability": 0.9984181594613578
+    },
+    {
+        "TransactionID": 3703811,
+        "fraud_probability": 0.9992193103922941
+    },
+    {
+        "TransactionID": 3703960,
+        "fraud_probability": 0.49168607264390085
+    },
+    {
+        "TransactionID": 3704141,
+        "fraud_probability": 0.9982132709431403
+    },
+    {
+        "TransactionID": 3704148,
+        "fraud_probability": 0.9978878618892055
+    },
+    {
+        "TransactionID": 3704449,
+        "fraud_probability": 0.9989606826460384
+    },
+    {
+        "TransactionID": 3704469,
+        "fraud_probability": 0.9989997716299128
+    },
+    {
+        "TransactionID": 3704677,
+        "fraud_probability": 0.9994445032843763
+    },
+    {
+        "TransactionID": 3704679,
+        "fraud_probability": 0.9994987957124521
+    },
+    {
+        "TransactionID": 3704682,
+        "fraud_probability": 0.9994863252934814
+    },
+    {
+        "TransactionID": 3704717,
+        "fraud_probability": 0.9994825245052295
+    },
+    {
+        "TransactionID": 3705125,
+        "fraud_probability": 0.9990854404994026
+    },
+    {
+        "TransactionID": 3705194,
+        "fraud_probability": 0.998897380485124
+    },
+    {
+        "TransactionID": 3705196,
+        "fraud_probability": 0.9991004531672852
+    },
+    {
+        "TransactionID": 3705199,
+        "fraud_probability": 0.9993365169032027
+    },
+    {
+        "TransactionID": 3705210,
+        "fraud_probability": 0.9991913889761823
+    },
+    {
+        "TransactionID": 3705212,
+        "fraud_probability": 0.9994115850894831
+    },
+    {
+        "TransactionID": 3705215,
+        "fraud_probability": 0.9994866510847378
+    },
+    {
+        "TransactionID": 3705288,
+        "fraud_probability": 0.9994806839683688
+    },
+    {
+        "TransactionID": 3705289,
+        "fraud_probability": 0.99947737099926
+    },
+    {
+        "TransactionID": 3705291,
+        "fraud_probability": 0.9994920294524909
+    },
+    {
+        "TransactionID": 3705299,
+        "fraud_probability": 0.9993703139610965
+    },
+    {
+        "TransactionID": 3705300,
+        "fraud_probability": 0.9992699215838133
+    },
+    {
+        "TransactionID": 3705311,
+        "fraud_probability": 0.9993763460416356
+    },
+    {
+        "TransactionID": 3705312,
+        "fraud_probability": 0.9993718685828746
+    },
+    {
+        "TransactionID": 3705315,
+        "fraud_probability": 0.9994094484170023
+    },
+    {
+        "TransactionID": 3705317,
+        "fraud_probability": 0.999403581795971
+    },
+    {
+        "TransactionID": 3705318,
+        "fraud_probability": 0.9994525206218365
+    },
+    {
+        "TransactionID": 3705320,
+        "fraud_probability": 0.9994355571931202
+    },
+    {
+        "TransactionID": 3705321,
+        "fraud_probability": 0.9994977884904201
+    },
+    {
+        "TransactionID": 3705322,
+        "fraud_probability": 0.9994693397538675
+    },
+    {
+        "TransactionID": 3705323,
+        "fraud_probability": 0.9994316400340325
+    },
+    {
+        "TransactionID": 3705324,
+        "fraud_probability": 0.7277469443587963
+    },
+    {
+        "TransactionID": 3705333,
+        "fraud_probability": 0.9994929998963183
+    },
+    {
+        "TransactionID": 3705335,
+        "fraud_probability": 0.9718237823847394
+    },
+    {
+        "TransactionID": 3705336,
+        "fraud_probability": 0.9990549527200019
+    },
+    {
+        "TransactionID": 3705343,
+        "fraud_probability": 0.9971415904595466
+    },
+    {
+        "TransactionID": 3705344,
+        "fraud_probability": 0.9641852564961094
+    },
+    {
+        "TransactionID": 3705852,
+        "fraud_probability": 0.9992757272271471
+    },
+    {
+        "TransactionID": 3705881,
+        "fraud_probability": 0.9994828758107134
+    },
+    {
+        "TransactionID": 3705885,
+        "fraud_probability": 0.9994550293314084
+    },
+    {
+        "TransactionID": 3705887,
+        "fraud_probability": 0.9994979171208813
+    },
+    {
+        "TransactionID": 3705936,
+        "fraud_probability": 0.8949288225303366
+    },
+    {
+        "TransactionID": 3705945,
+        "fraud_probability": 0.9990109441047225
+    },
+    {
+        "TransactionID": 3705957,
+        "fraud_probability": 0.9931337004540924
+    },
+    {
+        "TransactionID": 3705968,
+        "fraud_probability": 0.6390366231576042
+    },
+    {
+        "TransactionID": 3706067,
+        "fraud_probability": 0.9992962573956496
+    },
+    {
+        "TransactionID": 3706230,
+        "fraud_probability": 0.9993873933391708
+    },
+    {
+        "TransactionID": 3706233,
+        "fraud_probability": 0.9994363686065121
+    },
+    {
+        "TransactionID": 3706339,
+        "fraud_probability": 0.9992453520899375
+    },
+    {
+        "TransactionID": 3706349,
+        "fraud_probability": 0.9950393308283251
+    },
+    {
+        "TransactionID": 3706355,
+        "fraud_probability": 0.991179070235775
+    },
+    {
+        "TransactionID": 3706358,
+        "fraud_probability": 0.998973856584443
+    },
+    {
+        "TransactionID": 3706360,
+        "fraud_probability": 0.999364855682463
+    },
+    {
+        "TransactionID": 3706361,
+        "fraud_probability": 0.6813936624115758
+    },
+    {
+        "TransactionID": 3706365,
+        "fraud_probability": 0.9991378423747971
+    },
+    {
+        "TransactionID": 3706373,
+        "fraud_probability": 0.9990334057675785
+    },
+    {
+        "TransactionID": 3706377,
+        "fraud_probability": 0.9994821868424736
+    },
+    {
+        "TransactionID": 3706383,
+        "fraud_probability": 0.9994715353790704
+    },
+    {
+        "TransactionID": 3706389,
+        "fraud_probability": 0.9994546152612953
+    },
+    {
+        "TransactionID": 3706393,
+        "fraud_probability": 0.9994725182463446
+    },
+    {
+        "TransactionID": 3706398,
+        "fraud_probability": 0.9994747226316707
+    },
+    {
+        "TransactionID": 3706404,
+        "fraud_probability": 0.9994319565020183
+    },
+    {
+        "TransactionID": 3706409,
+        "fraud_probability": 0.999370405846683
+    },
+    {
+        "TransactionID": 3706411,
+        "fraud_probability": 0.9993807952921855
+    },
+    {
+        "TransactionID": 3706430,
+        "fraud_probability": 0.9994196919502747
+    },
+    {
+        "TransactionID": 3706432,
+        "fraud_probability": 0.9994000238960492
+    },
+    {
+        "TransactionID": 3706437,
+        "fraud_probability": 0.9994611065147548
+    },
+    {
+        "TransactionID": 3706439,
+        "fraud_probability": 0.9994611065147548
+    },
+    {
+        "TransactionID": 3706443,
+        "fraud_probability": 0.9994573407080384
+    },
+    {
+        "TransactionID": 3706448,
+        "fraud_probability": 0.9994284588373399
+    },
+    {
+        "TransactionID": 3706454,
+        "fraud_probability": 0.9994730003614106
+    },
+    {
+        "TransactionID": 3706459,
+        "fraud_probability": 0.9994436488948034
+    },
+    {
+        "TransactionID": 3706463,
+        "fraud_probability": 0.9994460596612992
+    },
+    {
+        "TransactionID": 3706465,
+        "fraud_probability": 0.9994112450043475
+    },
+    {
+        "TransactionID": 3706468,
+        "fraud_probability": 0.9994038428597307
+    },
+    {
+        "TransactionID": 3706470,
+        "fraud_probability": 0.9994049072422502
+    },
+    {
+        "TransactionID": 3706488,
+        "fraud_probability": 0.9994297001545673
+    },
+    {
+        "TransactionID": 3706493,
+        "fraud_probability": 0.9994301433137864
+    },
+    {
+        "TransactionID": 3706497,
+        "fraud_probability": 0.9994320140227282
+    },
+    {
+        "TransactionID": 3706500,
+        "fraud_probability": 0.9993982486490576
+    },
+    {
+        "TransactionID": 3706506,
+        "fraud_probability": 0.9994016085882352
+    },
+    {
+        "TransactionID": 3706514,
+        "fraud_probability": 0.9994124624426722
+    },
+    {
+        "TransactionID": 3706520,
+        "fraud_probability": 0.9993103016337064
+    },
+    {
+        "TransactionID": 3706526,
+        "fraud_probability": 0.9994056883522415
+    },
+    {
+        "TransactionID": 3706530,
+        "fraud_probability": 0.9993999935175935
+    },
+    {
+        "TransactionID": 3706531,
+        "fraud_probability": 0.9994348203679183
+    },
+    {
+        "TransactionID": 3706537,
+        "fraud_probability": 0.999435020650644
+    },
+    {
+        "TransactionID": 3706547,
+        "fraud_probability": 0.9993852714100313
+    },
+    {
+        "TransactionID": 3706552,
+        "fraud_probability": 0.9993741541852628
+    },
+    {
+        "TransactionID": 3706555,
+        "fraud_probability": 0.9944489081301326
+    },
+    {
+        "TransactionID": 3706568,
+        "fraud_probability": 0.9992442591423999
+    },
+    {
+        "TransactionID": 3706573,
+        "fraud_probability": 0.9992983583937161
+    },
+    {
+        "TransactionID": 3706579,
+        "fraud_probability": 0.9993186818476307
+    },
+    {
+        "TransactionID": 3706584,
+        "fraud_probability": 0.9994125376834937
+    },
+    {
+        "TransactionID": 3706600,
+        "fraud_probability": 0.9994693176251837
+    },
+    {
+        "TransactionID": 3706643,
+        "fraud_probability": 0.9677695491678963
+    },
+    {
+        "TransactionID": 3706644,
+        "fraud_probability": 0.9994482858289438
+    },
+    {
+        "TransactionID": 3706653,
+        "fraud_probability": 0.9994588627486392
+    },
+    {
+        "TransactionID": 3706659,
+        "fraud_probability": 0.9994708060909386
+    },
+    {
+        "TransactionID": 3706665,
+        "fraud_probability": 0.993281961138211
+    },
+    {
+        "TransactionID": 3706670,
+        "fraud_probability": 0.9994829682198995
+    },
+    {
+        "TransactionID": 3706673,
+        "fraud_probability": 0.998512602224107
+    },
+    {
+        "TransactionID": 3706675,
+        "fraud_probability": 0.9994777989106784
+    },
+    {
+        "TransactionID": 3706699,
+        "fraud_probability": 0.9991305519616841
+    },
+    {
+        "TransactionID": 3706725,
+        "fraud_probability": 0.9864149094581104
+    },
+    {
+        "TransactionID": 3706955,
+        "fraud_probability": 0.9993749384053525
+    },
+    {
+        "TransactionID": 3706965,
+        "fraud_probability": 0.9994493315953166
+    },
+    {
+        "TransactionID": 3707199,
+        "fraud_probability": 0.9989313472097259
+    },
+    {
+        "TransactionID": 3707524,
+        "fraud_probability": 0.556053039828433
+    },
+    {
+        "TransactionID": 3707529,
+        "fraud_probability": 0.43141916477183323
+    },
+    {
+        "TransactionID": 3707965,
+        "fraud_probability": 0.4474577191722735
+    },
+    {
+        "TransactionID": 3708062,
+        "fraud_probability": 0.9973425954915752
+    },
+    {
+        "TransactionID": 3708113,
+        "fraud_probability": 0.9994776184525805
+    },
+    {
+        "TransactionID": 3708123,
+        "fraud_probability": 0.9993525987102385
+    },
+    {
+        "TransactionID": 3708144,
+        "fraud_probability": 0.9993700719941371
+    },
+    {
+        "TransactionID": 3708152,
+        "fraud_probability": 0.9994692449101567
+    },
+    {
+        "TransactionID": 3708154,
+        "fraud_probability": 0.9990909298728742
+    },
+    {
+        "TransactionID": 3708155,
+        "fraud_probability": 0.9994535306962696
+    },
+    {
+        "TransactionID": 3708193,
+        "fraud_probability": 0.9990532009883354
+    },
+    {
+        "TransactionID": 3708421,
+        "fraud_probability": 0.9990380909142996
+    },
+    {
+        "TransactionID": 3708745,
+        "fraud_probability": 0.921607222904054
+    },
+    {
+        "TransactionID": 3708983,
+        "fraud_probability": 0.9994752683805013
+    },
+    {
+        "TransactionID": 3709327,
+        "fraud_probability": 0.9985019641056551
+    },
+    {
+        "TransactionID": 3709401,
+        "fraud_probability": 0.9992112534800391
+    },
+    {
+        "TransactionID": 3709405,
+        "fraud_probability": 0.9994799208282857
+    },
+    {
+        "TransactionID": 3709481,
+        "fraud_probability": 0.9965546440775748
+    },
+    {
+        "TransactionID": 3709488,
+        "fraud_probability": 0.9992520816185971
+    },
+    {
+        "TransactionID": 3709500,
+        "fraud_probability": 0.9790505498544324
+    },
+    {
+        "TransactionID": 3709502,
+        "fraud_probability": 0.9990748333503631
+    },
+    {
+        "TransactionID": 3709762,
+        "fraud_probability": 0.7555623093330963
+    },
+    {
+        "TransactionID": 3709770,
+        "fraud_probability": 0.7599434552437994
+    },
+    {
+        "TransactionID": 3709777,
+        "fraud_probability": 0.9992329431282755
+    },
+    {
+        "TransactionID": 3709786,
+        "fraud_probability": 0.9992353218155432
+    },
+    {
+        "TransactionID": 3710170,
+        "fraud_probability": 0.9992529919945915
+    },
+    {
+        "TransactionID": 3710197,
+        "fraud_probability": 0.9993202666967685
+    },
+    {
+        "TransactionID": 3710202,
+        "fraud_probability": 0.9994856914741049
+    },
+    {
+        "TransactionID": 3710205,
+        "fraud_probability": 0.9993916007667939
+    },
+    {
+        "TransactionID": 3710242,
+        "fraud_probability": 0.9995006747249154
+    },
+    {
+        "TransactionID": 3710247,
+        "fraud_probability": 0.999501590063261
+    },
+    {
+        "TransactionID": 3710250,
+        "fraud_probability": 0.9995026696647654
+    },
+    {
+        "TransactionID": 3710252,
+        "fraud_probability": 0.9995009839879321
+    },
+    {
+        "TransactionID": 3710257,
+        "fraud_probability": 0.9995001241200366
+    },
+    {
+        "TransactionID": 3710260,
+        "fraud_probability": 0.999501649442795
+    },
+    {
+        "TransactionID": 3710279,
+        "fraud_probability": 0.9994632850338371
+    },
+    {
+        "TransactionID": 3710302,
+        "fraud_probability": 0.9994591769538561
+    },
+    {
+        "TransactionID": 3710325,
+        "fraud_probability": 0.8670548618180033
+    },
+    {
+        "TransactionID": 3710327,
+        "fraud_probability": 0.9994779264382947
+    },
+    {
+        "TransactionID": 3710329,
+        "fraud_probability": 0.9995014742528288
+    },
+    {
+        "TransactionID": 3710330,
+        "fraud_probability": 0.9994937121868616
+    },
+    {
+        "TransactionID": 3710342,
+        "fraud_probability": 0.9994790665805275
+    },
+    {
+        "TransactionID": 3710411,
+        "fraud_probability": 0.9995025807750696
+    },
+    {
+        "TransactionID": 3710421,
+        "fraud_probability": 0.9994994983736591
+    },
+    {
+        "TransactionID": 3710424,
+        "fraud_probability": 0.9995002432211374
+    },
+    {
+        "TransactionID": 3710437,
+        "fraud_probability": 0.9995003265750316
+    },
+    {
+        "TransactionID": 3710439,
+        "fraud_probability": 0.9994877676060555
+    },
+    {
+        "TransactionID": 3710734,
+        "fraud_probability": 0.9993498666620628
+    },
+    {
+        "TransactionID": 3710739,
+        "fraud_probability": 0.9994366119709263
+    },
+    {
+        "TransactionID": 3710741,
+        "fraud_probability": 0.9994437748175554
+    },
+    {
+        "TransactionID": 3710744,
+        "fraud_probability": 0.9994779450982616
+    },
+    {
+        "TransactionID": 3710760,
+        "fraud_probability": 0.9994935553274485
+    },
+    {
+        "TransactionID": 3710761,
+        "fraud_probability": 0.9994848129415266
+    },
+    {
+        "TransactionID": 3710763,
+        "fraud_probability": 0.9994848405622142
+    },
+    {
+        "TransactionID": 3710886,
+        "fraud_probability": 0.9993004927047142
+    },
+    {
+        "TransactionID": 3710887,
+        "fraud_probability": 0.9993255999621373
+    },
+    {
+        "TransactionID": 3710888,
+        "fraud_probability": 0.9989976044196882
+    },
+    {
+        "TransactionID": 3710889,
+        "fraud_probability": 0.9993352570345819
+    },
+    {
+        "TransactionID": 3710892,
+        "fraud_probability": 0.9992546451948647
+    },
+    {
+        "TransactionID": 3710893,
+        "fraud_probability": 0.9993255035505291
+    },
+    {
+        "TransactionID": 3710895,
+        "fraud_probability": 0.9994261458770536
+    },
+    {
+        "TransactionID": 3710896,
+        "fraud_probability": 0.9991682851117647
+    },
+    {
+        "TransactionID": 3710897,
+        "fraud_probability": 0.9993134820296045
+    },
+    {
+        "TransactionID": 3710903,
+        "fraud_probability": 0.9994671191395655
+    },
+    {
+        "TransactionID": 3710904,
+        "fraud_probability": 0.99944413089214
+    },
+    {
+        "TransactionID": 3710907,
+        "fraud_probability": 0.9994758713280859
+    },
+    {
+        "TransactionID": 3710909,
+        "fraud_probability": 0.9981654447522832
+    },
+    {
+        "TransactionID": 3710910,
+        "fraud_probability": 0.9989885844936615
+    },
+    {
+        "TransactionID": 3710912,
+        "fraud_probability": 0.9992527717362572
+    },
+    {
+        "TransactionID": 3710913,
+        "fraud_probability": 0.99936034912521
+    },
+    {
+        "TransactionID": 3710917,
+        "fraud_probability": 0.9994534427961398
+    },
+    {
+        "TransactionID": 3711222,
+        "fraud_probability": 0.9991754705606904
+    },
+    {
+        "TransactionID": 3711224,
+        "fraud_probability": 0.9993471133701637
+    },
+    {
+        "TransactionID": 3711280,
+        "fraud_probability": 0.9955534969379054
+    },
+    {
+        "TransactionID": 3711318,
+        "fraud_probability": 0.9993033491108142
+    },
+    {
+        "TransactionID": 3711405,
+        "fraud_probability": 0.9989591747460473
+    },
+    {
+        "TransactionID": 3711408,
+        "fraud_probability": 0.9992597107648293
+    },
+    {
+        "TransactionID": 3711415,
+        "fraud_probability": 0.9992570938079757
+    },
+    {
+        "TransactionID": 3711426,
+        "fraud_probability": 0.9993832652137408
+    },
+    {
+        "TransactionID": 3711434,
+        "fraud_probability": 0.9994485897488079
+    },
+    {
+        "TransactionID": 3711441,
+        "fraud_probability": 0.9994157970057465
+    },
+    {
+        "TransactionID": 3711544,
+        "fraud_probability": 0.9981393230393605
+    },
+    {
+        "TransactionID": 3711615,
+        "fraud_probability": 0.33654215012664507
+    },
+    {
+        "TransactionID": 3711621,
+        "fraud_probability": 0.9992361274786934
+    },
+    {
+        "TransactionID": 3711630,
+        "fraud_probability": 0.9992641242242198
+    },
+    {
+        "TransactionID": 3711637,
+        "fraud_probability": 0.9992029639768997
+    },
+    {
+        "TransactionID": 3711659,
+        "fraud_probability": 0.9994955441387974
+    },
+    {
+        "TransactionID": 3711661,
+        "fraud_probability": 0.9994928579222918
+    },
+    {
+        "TransactionID": 3711663,
+        "fraud_probability": 0.9994982609708056
+    },
+    {
+        "TransactionID": 3711711,
+        "fraud_probability": 0.9994961733257183
+    },
+    {
+        "TransactionID": 3711754,
+        "fraud_probability": 0.999033808572064
+    },
+    {
+        "TransactionID": 3711821,
+        "fraud_probability": 0.684403499292673
+    },
+    {
+        "TransactionID": 3711827,
+        "fraud_probability": 0.9228089379494159
+    },
+    {
+        "TransactionID": 3711838,
+        "fraud_probability": 0.9099040748130884
+    },
+    {
+        "TransactionID": 3711840,
+        "fraud_probability": 0.40030314631673797
+    },
+    {
+        "TransactionID": 3711845,
+        "fraud_probability": 0.9971957233792685
+    },
+    {
+        "TransactionID": 3711862,
+        "fraud_probability": 0.9989474901637606
+    },
+    {
+        "TransactionID": 3711865,
+        "fraud_probability": 0.9994926373306489
+    },
+    {
+        "TransactionID": 3711866,
+        "fraud_probability": 0.9994885177145404
+    },
+    {
+        "TransactionID": 3711871,
+        "fraud_probability": 0.9994908160614712
+    },
+    {
+        "TransactionID": 3711875,
+        "fraud_probability": 0.9969760692351063
+    },
+    {
+        "TransactionID": 3711879,
+        "fraud_probability": 0.9992445201541592
+    },
+    {
+        "TransactionID": 3711884,
+        "fraud_probability": 0.9992433516510296
+    },
+    {
+        "TransactionID": 3711921,
+        "fraud_probability": 0.9994912102384473
+    },
+    {
+        "TransactionID": 3711928,
+        "fraud_probability": 0.9994792403342094
+    },
+    {
+        "TransactionID": 3711965,
+        "fraud_probability": 0.9994107222228577
+    },
+    {
+        "TransactionID": 3711970,
+        "fraud_probability": 0.9994527423461933
+    },
+    {
+        "TransactionID": 3711974,
+        "fraud_probability": 0.9994752965126322
+    },
+    {
+        "TransactionID": 3711980,
+        "fraud_probability": 0.9994865119222001
+    },
+    {
+        "TransactionID": 3712003,
+        "fraud_probability": 0.9994168782675613
+    },
+    {
+        "TransactionID": 3712004,
+        "fraud_probability": 0.9991599297068743
+    },
+    {
+        "TransactionID": 3712006,
+        "fraud_probability": 0.9993873641461943
+    },
+    {
+        "TransactionID": 3712009,
+        "fraud_probability": 0.9994956853611989
+    },
+    {
+        "TransactionID": 3712011,
+        "fraud_probability": 0.9995016583491152
+    },
+    {
+        "TransactionID": 3712014,
+        "fraud_probability": 0.999502536324267
+    },
+    {
+        "TransactionID": 3712020,
+        "fraud_probability": 0.9994941628872374
+    },
+    {
+        "TransactionID": 3712034,
+        "fraud_probability": 0.9991274788211312
+    },
+    {
+        "TransactionID": 3712043,
+        "fraud_probability": 0.9994948344243038
+    },
+    {
+        "TransactionID": 3712063,
+        "fraud_probability": 0.9946458706276191
+    },
+    {
+        "TransactionID": 3712068,
+        "fraud_probability": 0.9986620368727676
+    },
+    {
+        "TransactionID": 3712069,
+        "fraud_probability": 0.9994046643756829
+    },
+    {
+        "TransactionID": 3712087,
+        "fraud_probability": 0.9994882525578345
+    },
+    {
+        "TransactionID": 3712094,
+        "fraud_probability": 0.9994755996188268
+    },
+    {
+        "TransactionID": 3712124,
+        "fraud_probability": 0.9994790945091337
+    },
+    {
+        "TransactionID": 3712140,
+        "fraud_probability": 0.9994649370507522
+    },
+    {
+        "TransactionID": 3712145,
+        "fraud_probability": 0.9994763753349382
+    },
+    {
+        "TransactionID": 3712150,
+        "fraud_probability": 0.9994413408015698
+    },
+    {
+        "TransactionID": 3712163,
+        "fraud_probability": 0.9993590810381059
+    },
+    {
+        "TransactionID": 3712166,
+        "fraud_probability": 0.9993956245332664
+    },
+    {
+        "TransactionID": 3712185,
+        "fraud_probability": 0.9994693176251837
+    },
+    {
+        "TransactionID": 3712233,
+        "fraud_probability": 0.9994775717722394
+    },
+    {
+        "TransactionID": 3712236,
+        "fraud_probability": 0.9994254652251849
+    },
+    {
+        "TransactionID": 3712238,
+        "fraud_probability": 0.9994621712465582
+    },
+    {
+        "TransactionID": 3712274,
+        "fraud_probability": 0.9991296739161217
+    },
+    {
+        "TransactionID": 3712292,
+        "fraud_probability": 0.9994278013785596
+    },
+    {
+        "TransactionID": 3712294,
+        "fraud_probability": 0.9994383192755462
+    },
+    {
+        "TransactionID": 3712296,
+        "fraud_probability": 0.9994769224835908
+    },
+    {
+        "TransactionID": 3712298,
+        "fraud_probability": 0.9994912829762239
+    },
+    {
+        "TransactionID": 3712300,
+        "fraud_probability": 0.9994928730278002
+    },
+    {
+        "TransactionID": 3712301,
+        "fraud_probability": 0.9994763878119308
+    },
+    {
+        "TransactionID": 3712303,
+        "fraud_probability": 0.9994947922912532
+    },
+    {
+        "TransactionID": 3712305,
+        "fraud_probability": 0.9994987330069043
+    },
+    {
+        "TransactionID": 3712306,
+        "fraud_probability": 0.9994979769377824
+    },
+    {
+        "TransactionID": 3712308,
+        "fraud_probability": 0.9994576073332828
+    },
+    {
+        "TransactionID": 3712310,
+        "fraud_probability": 0.9994978812273213
+    },
+    {
+        "TransactionID": 3712312,
+        "fraud_probability": 0.9994954780211139
+    },
+    {
+        "TransactionID": 3712326,
+        "fraud_probability": 0.9994963083708998
+    },
+    {
+        "TransactionID": 3712335,
+        "fraud_probability": 0.9991687381954834
+    },
+    {
+        "TransactionID": 3712341,
+        "fraud_probability": 0.9994746037114521
+    },
+    {
+        "TransactionID": 3712343,
+        "fraud_probability": 0.9994138310177391
+    },
+    {
+        "TransactionID": 3712351,
+        "fraud_probability": 0.9994974383291481
+    },
+    {
+        "TransactionID": 3712354,
+        "fraud_probability": 0.9994938524142478
+    },
+    {
+        "TransactionID": 3712356,
+        "fraud_probability": 0.9994893625558173
+    },
+    {
+        "TransactionID": 3712359,
+        "fraud_probability": 0.9994904079186465
+    },
+    {
+        "TransactionID": 3712363,
+        "fraud_probability": 0.9994946688813988
+    },
+    {
+        "TransactionID": 3712365,
+        "fraud_probability": 0.9994966563205557
+    },
+    {
+        "TransactionID": 3712367,
+        "fraud_probability": 0.9994929002165823
+    },
+    {
+        "TransactionID": 3712393,
+        "fraud_probability": 0.9994641603589448
+    },
+    {
+        "TransactionID": 3712394,
+        "fraud_probability": 0.9994426388264827
+    },
+    {
+        "TransactionID": 3712398,
+        "fraud_probability": 0.9994009559454554
+    },
+    {
+        "TransactionID": 3712401,
+        "fraud_probability": 0.9994617529810186
+    },
+    {
+        "TransactionID": 3712446,
+        "fraud_probability": 0.9990561365397633
+    },
+    {
+        "TransactionID": 3712449,
+        "fraud_probability": 0.99943965602791
+    },
+    {
+        "TransactionID": 3712454,
+        "fraud_probability": 0.9994909828658901
+    },
+    {
+        "TransactionID": 3712465,
+        "fraud_probability": 0.9994880787599858
+    },
+    {
+        "TransactionID": 3712466,
+        "fraud_probability": 0.9994885177145404
+    },
+    {
+        "TransactionID": 3712468,
+        "fraud_probability": 0.9994932384440138
+    },
+    {
+        "TransactionID": 3712479,
+        "fraud_probability": 0.992365077610067
+    },
+    {
+        "TransactionID": 3712489,
+        "fraud_probability": 0.894952078809615
+    },
+    {
+        "TransactionID": 3712619,
+        "fraud_probability": 0.9981247432496113
+    },
+    {
+        "TransactionID": 3713216,
+        "fraud_probability": 0.2866471754091963
+    },
+    {
+        "TransactionID": 3713220,
+        "fraud_probability": 0.9979419244586311
+    },
+    {
+        "TransactionID": 3713225,
+        "fraud_probability": 0.9771006052370221
+    },
+    {
+        "TransactionID": 3713260,
+        "fraud_probability": 0.9963652233475044
+    },
+    {
+        "TransactionID": 3713267,
+        "fraud_probability": 0.9796701224213928
+    },
+    {
+        "TransactionID": 3713293,
+        "fraud_probability": 0.6759907374515457
+    },
+    {
+        "TransactionID": 3713297,
+        "fraud_probability": 0.9967560084871036
+    },
+    {
+        "TransactionID": 3713302,
+        "fraud_probability": 0.9878018052974422
+    },
+    {
+        "TransactionID": 3713307,
+        "fraud_probability": 0.9989699818120805
+    },
+    {
+        "TransactionID": 3713315,
+        "fraud_probability": 0.9991399115480881
+    },
+    {
+        "TransactionID": 3713317,
+        "fraud_probability": 0.9993943487770626
+    },
+    {
+        "TransactionID": 3713324,
+        "fraud_probability": 0.9984181782876613
+    },
+    {
+        "TransactionID": 3713325,
+        "fraud_probability": 0.9994189448102921
+    },
+    {
+        "TransactionID": 3713326,
+        "fraud_probability": 0.9992385620572862
+    },
+    {
+        "TransactionID": 3713327,
+        "fraud_probability": 0.9992866887225733
+    },
+    {
+        "TransactionID": 3713328,
+        "fraud_probability": 0.9992708710595772
+    },
+    {
+        "TransactionID": 3713329,
+        "fraud_probability": 0.9994139828848323
+    },
+    {
+        "TransactionID": 3713354,
+        "fraud_probability": 0.9941315804351367
+    },
+    {
+        "TransactionID": 3713357,
+        "fraud_probability": 0.9984214600544845
+    },
+    {
+        "TransactionID": 3713361,
+        "fraud_probability": 0.999393019714069
+    },
+    {
+        "TransactionID": 3713364,
+        "fraud_probability": 0.9993951221197822
+    },
+    {
+        "TransactionID": 3713374,
+        "fraud_probability": 0.9977415177476252
+    },
+    {
+        "TransactionID": 3713376,
+        "fraud_probability": 0.9980897655742004
+    },
+    {
+        "TransactionID": 3713385,
+        "fraud_probability": 0.9885759007050485
+    },
+    {
+        "TransactionID": 3713394,
+        "fraud_probability": 0.9735751437956719
+    },
+    {
+        "TransactionID": 3713395,
+        "fraud_probability": 0.9825903142221019
+    },
+    {
+        "TransactionID": 3713397,
+        "fraud_probability": 0.9976022705579519
+    },
+    {
+        "TransactionID": 3713506,
+        "fraud_probability": 0.9994639145176635
+    },
+    {
+        "TransactionID": 3713508,
+        "fraud_probability": 0.999456047741312
+    },
+    {
+        "TransactionID": 3713511,
+        "fraud_probability": 0.9994210816296855
+    }
+]
