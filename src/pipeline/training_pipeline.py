@@ -6,7 +6,6 @@ import json
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-import mlflow
 import mlflow.xgboost
 
 from sklearn.calibration import CalibratedClassifierCV

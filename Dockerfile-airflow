@@ -1,0 +1,32 @@
+# Stage 1: Inherit all shared Python dependencies from base image
+FROM fraud-detection-base:latest as base
+
+# Stage 2: Use official Airflow image
+FROM apache/airflow:3.0.0-python3.11
+
+# Switch to root to install Java and copy site-packages
+USER root
+
+# Install OpenJDK 17 (required for PySpark)
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends openjdk-17-jdk && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Set Java env for PySpark
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+ENV PYSPARK_PYTHON=python3
+
+# Copy installed Python packages from base image
+COPY --from=base /usr/local/lib/python3.11 /usr/local/lib/python3.11
+COPY --from=base /usr/local/bin /usr/local/bin
+COPY --from=base /usr/local/include /usr/local/include
+COPY --from=base /usr/local/share /usr/local/share
+
+# Switch back to Airflow user
+USER airflow
+
+# Copy Airflow-specific requirements
+COPY requirements-airflow.txt .
+
+# Install Airflow/PySpark-related packages
+RUN pip install --no-cache-dir -r requirements-airflow.txt

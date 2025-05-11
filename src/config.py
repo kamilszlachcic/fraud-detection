@@ -10,10 +10,13 @@ RESULTS_DIR = PROJECT_ROOT / "results"
 DATA_DIR = PROJECT_ROOT / "data"
 DATA_RAW_DIR = PROJECT_ROOT / "data/raw"
 DATA_PROCESSING_DIR = PROJECT_ROOT / "src" / "data_processing"
+SPLIT_DATA_DIR = DATA_DIR / "split"
+BATCH_PREDICTIONS_DIR = RESULTS_DIR / "batch_predictions"
 
 # === Ensure directories exist ===
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+BATCH_PREDICTIONS_DIR.mkdir(parents=True, exist_ok=True)
 
 # === Specific files ===
 XGB_MODEL_PATH = MODELS_DIR / "XGB_model.pkl"

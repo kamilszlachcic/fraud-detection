@@ -3,17 +3,53 @@ services:
     container_name: fraud-api
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Docker_fastapi
     ports:
       - "8000:8000"
     volumes:
-      - ./:/app    # Cały projekt montowany jako volume
+      - ./:/app
     environment:
-      POETRY_VIRTUALENVS_CREATE: "false"
       PYTHONUNBUFFERED: "1"
-      SPARK_HOME: "/opt/spark"
-      JAVA_HOME: "/usr/lib/jvm/java-11-openjdk-amd64"
-      PYSPARK_PYTHON: "python3"
     command: >
       uvicorn src.api.main:app --host 0.0.0.0 --port 8000
     restart: unless-stopped
+
+  api-server:
+    build:
+      context: .
+      dockerfile: Dockerfile-airflow
+    image: custom-airflow:latest
+    container_name: airflow-api-server
+    restart: unless-stopped  # Użyj tej samej polityki restartu jak dla fraud-api
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+      - AIRFLOW__CORE__FERNET_KEY=b5WTk8r3qZPxX1JP-NvqQx6zCtTKiRHxtPhecgixRBQ=
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./airflow:/opt/airflow
+      - ./src:/opt/airflow/src
+    ports:
+      - "8080:8080"
+    command: api-server  # Komenda zgodna z Airflow 3.0.0
+
+  airflow-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile-airflow
+    image: custom-airflow:latest
+    container_name: airflow-scheduler
+    restart: unless-stopped  # Użyj tej samej polityki restartu jak dla fraud-api
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+      - AIRFLOW__CORE__FERNET_KEY=b5WTk8r3qZPxX1JP-NvqQx6zCtTKiRHxtPhecgixRBQ=
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./airflow:/opt/airflow
+      - ./src:/opt/airflow/src
+    command: scheduler

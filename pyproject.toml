@@ -6,21 +6,18 @@ authors = ["Kamil Szlachcic"]
 readme = "README.md"
 package-mode = false
 
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
+
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
-fastapi = ">=0.115.12,<0.116.0"
-uvicorn = ">=0.34.1,<0.35.0"
-pandas = ">=2.2.3,<3.0.0"
 numpy = ">=2.2.0,<3.0.0"
+pandas = ">=2.2.3,<3.0.0"
 scikit-learn = ">=1.6.1,<2.0.0"
 xgboost = ">=3.0.0,<4.0.0"
-joblib = ">=1.4.2,<2.0.0"
-python-multipart = ">=0.0.6,<1.0.0"
-matplotlib = ">=3.10.1"
 pyarrow = ">=19.0.0"
+joblib = ">=1.4.2,<2.0.0"
 mlflow = "^2.21.3"
-pyspark = "^3.5.5"
-apache-airflow = "^3.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -31,6 +28,17 @@ pytest = "^8.1.1"
 ipykernel = "^6.29.4"
 jupyter = "^1.0.0"
 
+[tool.poetry.group.fastapi.dependencies]
+fastapi = ">=0.115.12,<0.116.0"
+uvicorn = ">=0.34.1,<0.35.0"
+python-multipart = ">=0.0.6,<1.0.0"
+matplotlib = ">=3.10.1"
+
+[tool.poetry.group.airflow.dependencies]
+pyspark = "^3.5.5"
+
 [build-system]
 requires = ["poetry-core>=1.6"]
 build-backend = "poetry.core.masonry.api"
+
+

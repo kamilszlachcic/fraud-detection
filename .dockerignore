@@ -23,3 +23,6 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+airflow/logs/
+airflow/logs/*
